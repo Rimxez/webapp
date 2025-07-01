@@ -1,0 +1,3719 @@
+[
+  {
+    "timestamp": "2025-06-29 13:25:55",
+    "action": "door",
+    "status": "lock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-29 13:25:47",
+    "action": "door",
+    "status": "unlock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-29 13:23:20",
+    "action": "door",
+    "status": "locked",
+    "user": "admin",
+    "details": "Door auto-locked after unlock delay"
+  },
+  {
+    "timestamp": "2025-06-29 13:23:14",
+    "action": "camera",
+    "status": "streaming_stopped",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-29 13:23:10",
+    "action": "door",
+    "status": "unlocked",
+    "user": "admin",
+    "details": "Door auto-unlocked via fingerprint"
+  },
+  {
+    "timestamp": "2025-06-29 13:23:10",
+    "action": "fingerprint",
+    "status": "success",
+    "user": "admin",
+    "details": "Auto-auth success via continuous scan"
+  },
+  {
+    "timestamp": "2025-06-29 13:22:59",
+    "action": "camera",
+    "status": "streaming_started",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-29 13:22:58",
+    "action": "camera",
+    "status": "streaming_stopped",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-29 13:22:55",
+    "action": "camera",
+    "status": "streaming_started",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-29 13:22:54",
+    "action": "door",
+    "status": "lock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-29 13:22:50",
+    "action": "door",
+    "status": "unlock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-29 13:22:16",
+    "action": "door",
+    "status": "locked",
+    "user": "admin",
+    "details": "Door auto-locked after unlock delay"
+  },
+  {
+    "timestamp": "2025-06-29 13:22:06",
+    "action": "door",
+    "status": "unlocked",
+    "user": "admin",
+    "details": "Door auto-unlocked via fingerprint"
+  },
+  {
+    "timestamp": "2025-06-29 13:22:06",
+    "action": "fingerprint",
+    "status": "success",
+    "user": "admin",
+    "details": "Auto-auth success via continuous scan"
+  },
+  {
+    "timestamp": "2025-06-29 13:21:31",
+    "action": "door",
+    "status": "locked",
+    "user": "admin",
+    "details": "Door auto-locked after unlock delay"
+  },
+  {
+    "timestamp": "2025-06-29 13:21:21",
+    "action": "door",
+    "status": "unlocked",
+    "user": "admin",
+    "details": "Door auto-unlocked via fingerprint"
+  },
+  {
+    "timestamp": "2025-06-29 13:21:21",
+    "action": "fingerprint",
+    "status": "success",
+    "user": "admin",
+    "details": "Auto-auth success via continuous scan"
+  },
+  {
+    "timestamp": "2025-06-29 13:21:15",
+    "action": "door",
+    "status": "locked",
+    "user": "admin",
+    "details": "Door auto-locked after unlock delay"
+  },
+  {
+    "timestamp": "2025-06-29 13:21:05",
+    "action": "door",
+    "status": "unlocked",
+    "user": "admin",
+    "details": "Door auto-unlocked via fingerprint"
+  },
+  {
+    "timestamp": "2025-06-29 13:21:05",
+    "action": "fingerprint",
+    "status": "success",
+    "user": "admin",
+    "details": "Auto-auth success via continuous scan"
+  },
+  {
+    "timestamp": "2025-06-29 13:13:45",
+    "action": "door",
+    "status": "locked",
+    "user": null,
+    "details": "Door auto-locked after unlock delay"
+  },
+  {
+    "timestamp": "2025-06-29 13:13:35",
+    "action": "door",
+    "status": "unlocked",
+    "user": null,
+    "details": "Door auto-unlocked via fingerprint"
+  },
+  {
+    "timestamp": "2025-06-29 13:13:35",
+    "action": "fingerprint",
+    "status": "success",
+    "user": null,
+    "details": "Auto-auth success via continuous scan"
+  },
+  {
+    "timestamp": "2025-06-29 13:13:29",
+    "action": "door",
+    "status": "locked",
+    "user": "admin",
+    "details": "Door auto-locked after unlock delay"
+  },
+  {
+    "timestamp": "2025-06-29 13:13:19",
+    "action": "door",
+    "status": "unlocked",
+    "user": "admin",
+    "details": "Door auto-unlocked via fingerprint"
+  },
+  {
+    "timestamp": "2025-06-29 13:13:19",
+    "action": "fingerprint",
+    "status": "success",
+    "user": "admin",
+    "details": "Auto-auth success via continuous scan"
+  },
+  {
+    "timestamp": "2025-06-29 13:12:59",
+    "action": "door",
+    "status": "locked",
+    "user": "admin",
+    "details": "Door auto-locked after unlock delay"
+  },
+  {
+    "timestamp": "2025-06-29 13:12:49",
+    "action": "door",
+    "status": "unlocked",
+    "user": "admin",
+    "details": "Door auto-unlocked via fingerprint"
+  },
+  {
+    "timestamp": "2025-06-29 13:12:49",
+    "action": "fingerprint",
+    "status": "success",
+    "user": "admin",
+    "details": "Auto-auth success via continuous scan"
+  },
+  {
+    "timestamp": "2025-06-29 13:12:45",
+    "action": "door",
+    "status": "locked",
+    "user": "admin",
+    "details": "Door auto-locked after unlock delay"
+  },
+  {
+    "timestamp": "2025-06-29 13:12:35",
+    "action": "door",
+    "status": "unlocked",
+    "user": "admin",
+    "details": "Door auto-unlocked via fingerprint"
+  },
+  {
+    "timestamp": "2025-06-29 13:12:35",
+    "action": "fingerprint",
+    "status": "success",
+    "user": "admin",
+    "details": "Auto-auth success via continuous scan"
+  },
+  {
+    "timestamp": "2025-06-29 13:12:33",
+    "action": "door",
+    "status": "locked",
+    "user": null,
+    "details": "Door auto-locked after unlock delay"
+  },
+  {
+    "timestamp": "2025-06-29 13:12:23",
+    "action": "door",
+    "status": "unlocked",
+    "user": null,
+    "details": "Door auto-unlocked via fingerprint"
+  },
+  {
+    "timestamp": "2025-06-29 13:12:23",
+    "action": "fingerprint",
+    "status": "success",
+    "user": null,
+    "details": "Auto-auth success via continuous scan"
+  },
+  {
+    "timestamp": "2025-06-29 13:10:38",
+    "action": "door",
+    "status": "unlocked",
+    "user": "admin",
+    "details": "Door unlocked after successful fingerprint"
+  },
+  {
+    "timestamp": "2025-06-29 13:10:38",
+    "action": "fingerprint",
+    "status": "success",
+    "user": "admin",
+    "details": "Authentication successful"
+  },
+  {
+    "timestamp": "2025-06-29 13:10:33",
+    "action": "door",
+    "status": "unlocked",
+    "user": "admin",
+    "details": "Door unlocked after successful fingerprint"
+  },
+  {
+    "timestamp": "2025-06-29 13:10:33",
+    "action": "fingerprint",
+    "status": "success",
+    "user": "admin",
+    "details": "Authentication successful"
+  },
+  {
+    "timestamp": "2025-06-29 12:54:25",
+    "action": "camera",
+    "status": "streaming_stopped",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-29 12:54:24",
+    "action": "camera",
+    "status": "capture",
+    "user": "admin",
+    "details": "capture_20250629_125424.jpg"
+  },
+  {
+    "timestamp": "2025-06-29 12:54:17",
+    "action": "camera",
+    "status": "streaming_started",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-29 12:53:35",
+    "action": "camera",
+    "status": "streaming_stopped",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-29 12:53:33",
+    "action": "camera",
+    "status": "streaming_started",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-29 12:53:31",
+    "action": "door",
+    "status": "lock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-29 12:53:30",
+    "action": "door",
+    "status": "unlock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-29 12:52:44",
+    "action": "fingerprint",
+    "status": "auto_success",
+    "user": "admin",
+    "details": "Auto-authenticated in background"
+  },
+  {
+    "timestamp": "2025-06-29 12:52:41",
+    "action": "fingerprint",
+    "status": "auto_failed",
+    "user": "unknown",
+    "details": "User not found"
+  },
+  {
+    "timestamp": "2025-06-29 12:52:38",
+    "action": "fingerprint",
+    "status": "auto_failed",
+    "user": "unknown",
+    "details": "User not found"
+  },
+  {
+    "timestamp": "2025-06-29 12:52:34",
+    "action": "fingerprint",
+    "status": "auto_success",
+    "user": "admin",
+    "details": "Auto-authenticated in background"
+  },
+  {
+    "timestamp": "2025-06-29 12:52:12",
+    "action": "fingerprint",
+    "status": "auto_success",
+    "user": "admin",
+    "details": "Auto-authenticated in background"
+  },
+  {
+    "timestamp": "2025-06-29 12:52:06",
+    "action": "fingerprint",
+    "status": "auto_failed",
+    "user": "unknown",
+    "details": "User not found"
+  },
+  {
+    "timestamp": "2025-06-29 12:52:03",
+    "action": "fingerprint",
+    "status": "auto_failed",
+    "user": "unknown",
+    "details": "User not found"
+  },
+  {
+    "timestamp": "2025-06-29 12:42:08",
+    "action": "camera",
+    "status": "streaming_stopped",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-29 12:42:02",
+    "action": "camera",
+    "status": "streaming_started",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-29 12:42:00",
+    "action": "door",
+    "status": "lock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-29 12:41:59",
+    "action": "door",
+    "status": "unlock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-29 12:41:27",
+    "action": "fingerprint",
+    "status": "enrolled",
+    "user": "admin",
+    "details": "Enrollment successful for admin, slot 4"
+  },
+  {
+    "timestamp": "2025-06-29 12:41:03",
+    "action": "fingerprint",
+    "status": "error",
+    "user": "system",
+    "details": "The received packet do not begin with a valid header!"
+  },
+  {
+    "timestamp": "2025-06-29 12:40:46",
+    "action": "fingerprint",
+    "status": "deleted",
+    "user": "admin",
+    "details": "Deleted for admin"
+  },
+  {
+    "timestamp": "2025-06-29 12:38:38",
+    "action": "fingerprint",
+    "status": "enrolled",
+    "user": "admin",
+    "details": "Enrollment successful for admin, slot 3"
+  },
+  {
+    "timestamp": "2025-06-29 12:38:14",
+    "action": "fingerprint",
+    "status": "error",
+    "user": "system",
+    "details": "device reports readiness to read but returned no data (device disconnected or multiple access on port?)"
+  },
+  {
+    "timestamp": "2025-06-29 12:37:37",
+    "action": "fingerprint",
+    "status": "deleted",
+    "user": "admin",
+    "details": "Deleted for admin"
+  },
+  {
+    "timestamp": "2025-06-29 12:35:11",
+    "action": "fingerprint",
+    "status": "enrolled",
+    "user": "admin",
+    "details": "Enrollment successful for admin, slot 2"
+  },
+  {
+    "timestamp": "2025-06-29 12:34:27",
+    "action": "fingerprint",
+    "status": "enrollment_failed",
+    "user": "admin",
+    "details": "Fingerprints did not match"
+  },
+  {
+    "timestamp": "2025-06-29 12:25:44",
+    "action": "fingerprint",
+    "status": "error",
+    "user": "system",
+    "details": "'Serial' object has no attribute 'readImage'"
+  },
+  {
+    "timestamp": "2025-06-29 12:14:56",
+    "action": "fingerprint",
+    "status": "error",
+    "user": "system",
+    "details": "'Serial' object has no attribute 'readImage'"
+  },
+  {
+    "timestamp": "2025-06-29 12:07:45",
+    "action": "profile",
+    "status": "updated",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-29 11:57:35",
+    "action": "fingerprint",
+    "status": "enrollment_failed",
+    "user": "admin",
+    "details": "Hardware enrollment failed for admin: Failed to capture first image"
+  },
+  {
+    "timestamp": "2025-06-29 11:41:31",
+    "action": "door",
+    "status": "lock",
+    "user": "keypad",
+    "details": "Auto-lock"
+  },
+  {
+    "timestamp": "2025-06-29 11:41:24",
+    "action": "passcode",
+    "status": "success",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-29 11:41:24",
+    "action": "door",
+    "status": "unlock",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-29 11:33:20",
+    "action": "fingerprint",
+    "status": "enrollment_failed",
+    "user": "admin",
+    "details": "Hardware enrollment failed for admin: Failed to capture first image"
+  },
+  {
+    "timestamp": "2025-06-29 11:32:02",
+    "action": "fingerprint",
+    "status": "enrollment_failed",
+    "user": "admin",
+    "details": "Hardware enrollment failed for admin: Failed to capture first image"
+  },
+  {
+    "timestamp": "2025-06-29 11:13:25",
+    "action": "camera",
+    "status": "streaming_stopped",
+    "user": "test377",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-29 11:13:22",
+    "action": "camera",
+    "status": "streaming_started",
+    "user": "test377",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-29 11:13:21",
+    "action": "camera",
+    "status": "streaming_stopped",
+    "user": "test377",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-29 11:13:17",
+    "action": "camera",
+    "status": "streaming_started",
+    "user": "test377",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-29 11:12:39",
+    "action": "door",
+    "status": "unlock",
+    "user": "test377",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-29 11:11:00",
+    "action": "fingerprint",
+    "status": "enrollment_failed",
+    "user": "admin",
+    "details": "Hardware enrollment failed for admin: Failed to capture first image"
+  },
+  {
+    "timestamp": "2025-06-29 11:10:21",
+    "action": "fingerprint",
+    "status": "enrollment_failed",
+    "user": "admin",
+    "details": "Hardware enrollment failed for admin: Enrollment failed: device reports readiness to read but returned no data (device disconnected or multiple access on port?)"
+  },
+  {
+    "timestamp": "2025-06-29 11:09:43",
+    "action": "fingerprint",
+    "status": "enrollment_failed",
+    "user": "test377",
+    "details": "Hardware enrollment failed for test377: Failed to capture first image"
+  },
+  {
+    "timestamp": "2025-06-29 11:09:09",
+    "action": "login",
+    "status": "success",
+    "user": "test377",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-29 11:09:00",
+    "action": "login",
+    "status": "failed",
+    "user": "test",
+    "details": "User not found"
+  },
+  {
+    "timestamp": "2025-06-29 11:08:53",
+    "action": "user",
+    "status": "approved",
+    "user": "admin",
+    "details": "Approved user: test377"
+  },
+  {
+    "timestamp": "2025-06-29 11:08:29",
+    "action": "login",
+    "status": "failed",
+    "user": "test",
+    "details": "User not found"
+  },
+  {
+    "timestamp": "2025-06-29 11:08:24",
+    "action": "login",
+    "status": "failed",
+    "user": "TEST",
+    "details": "User not found"
+  },
+  {
+    "timestamp": "2025-06-29 11:08:21",
+    "action": "login",
+    "status": "failed",
+    "user": "TEST",
+    "details": "User not found"
+  },
+  {
+    "timestamp": "2025-06-29 11:07:41",
+    "action": "user",
+    "status": "signup",
+    "user": "test377",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-29 11:07:26",
+    "action": "login",
+    "status": "failed",
+    "user": "test",
+    "details": "User not found"
+  },
+  {
+    "timestamp": "2025-06-29 11:04:07",
+    "action": "door",
+    "status": "lock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-29 11:04:07",
+    "action": "door",
+    "status": "unlock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-29 11:04:05",
+    "action": "camera",
+    "status": "streaming_stopped",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-29 11:03:54",
+    "action": "camera",
+    "status": "streaming_started",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-29 11:03:49",
+    "action": "login",
+    "status": "success",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-28 16:41:51",
+    "action": "ai",
+    "status": "interaction_ended",
+    "user": "keypad",
+    "details": "AI conversation session ended"
+  },
+  {
+    "timestamp": "2025-06-28 16:41:51",
+    "action": "ai_conversation",
+    "status": "name_no_audio",
+    "user": "keypad",
+    "details": "No audio recorded for name"
+  },
+  {
+    "timestamp": "2025-06-28 16:41:48",
+    "action": "ai",
+    "status": "interaction_stopped",
+    "user": "keypad",
+    "details": "# key pressed - AI conversation stopped"
+  },
+  {
+    "timestamp": "2025-06-28 16:41:36",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Hello! Welcome to our smart door system. May I please have your name?"
+  },
+  {
+    "timestamp": "2025-06-28 16:41:36",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "D key pressed - AI conversation started"
+  },
+  {
+    "timestamp": "2025-06-28 16:40:47",
+    "action": "ai",
+    "status": "interaction_ended",
+    "user": "keypad",
+    "details": "AI conversation session ended"
+  },
+  {
+    "timestamp": "2025-06-28 16:40:41",
+    "action": "ai",
+    "status": "interaction_stopped",
+    "user": "keypad",
+    "details": "# key pressed - AI conversation stopped"
+  },
+  {
+    "timestamp": "2025-06-28 16:40:40",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Hello! Welcome to our smart door system. May I please have your name?"
+  },
+  {
+    "timestamp": "2025-06-28 16:40:40",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "D key pressed - AI conversation started"
+  },
+  {
+    "timestamp": "2025-06-28 16:40:38",
+    "action": "ai",
+    "status": "interaction_ended",
+    "user": "keypad",
+    "details": "AI conversation session ended"
+  },
+  {
+    "timestamp": "2025-06-28 16:40:35",
+    "action": "ai",
+    "status": "interaction_stopped",
+    "user": "keypad",
+    "details": "# key pressed - AI conversation stopped"
+  },
+  {
+    "timestamp": "2025-06-28 16:40:30",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Hello! Welcome to our smart door system. May I please have your name?"
+  },
+  {
+    "timestamp": "2025-06-28 16:40:30",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "D key pressed - AI conversation started"
+  },
+  {
+    "timestamp": "2025-06-15 21:37:09",
+    "action": "ai",
+    "status": "interaction_ended",
+    "user": "keypad",
+    "details": "AI conversation session ended"
+  },
+  {
+    "timestamp": "2025-06-15 21:37:09",
+    "action": "ai_conversation",
+    "status": "completed",
+    "user": "keypad",
+    "details": "Conversation completed with lucky"
+  },
+  {
+    "timestamp": "2025-06-15 21:37:01",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Thank you, lucky! The residents have been notified. Have a great day!"
+  },
+  {
+    "timestamp": "2025-06-15 21:37:01",
+    "action": "ai_conversation",
+    "status": "interaction_summary",
+    "user": "keypad",
+    "details": "Visitor: lucky | Purpose: testing tagalog pwede rin po mag tagalog | Intent: general"
+  },
+  {
+    "timestamp": "2025-06-15 21:36:53",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Thank you, lucky. I've recorded your visit details and I'm notifying the residents now."
+  },
+  {
+    "timestamp": "2025-06-15 21:36:53",
+    "action": "ai_conversation",
+    "status": "intent_detected",
+    "user": "keypad",
+    "details": "Intent: general | Visitor: lucky"
+  },
+  {
+    "timestamp": "2025-06-15 21:36:53",
+    "action": "ai_conversation",
+    "status": "visit_purpose",
+    "user": "keypad",
+    "details": "Purpose: testing tagalog pwede rin po mag tagalog | Confidence: 0.85 | Visitor: lucky"
+  },
+  {
+    "timestamp": "2025-06-15 21:36:29",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Nice to meet you, lucky. What is the purpose of your visit today?"
+  },
+  {
+    "timestamp": "2025-06-15 21:36:29",
+    "action": "ai_conversation",
+    "status": "visitor_name",
+    "user": "keypad",
+    "details": "Name: lucky | Confidence: 0.85"
+  },
+  {
+    "timestamp": "2025-06-15 21:36:12",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Hello! Welcome to our smart door system. May I please have your name?"
+  },
+  {
+    "timestamp": "2025-06-15 21:36:12",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "D key pressed - AI conversation started"
+  },
+  {
+    "timestamp": "2025-06-15 21:35:59",
+    "action": "ai",
+    "status": "interaction_ended",
+    "user": "keypad",
+    "details": "AI conversation session ended"
+  },
+  {
+    "timestamp": "2025-06-15 21:35:59",
+    "action": "ai_conversation",
+    "status": "completed",
+    "user": "keypad",
+    "details": "Conversation completed with lucky"
+  },
+  {
+    "timestamp": "2025-06-15 21:35:52",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Thank you, lucky! The residents have been notified. Have a great day!"
+  },
+  {
+    "timestamp": "2025-06-15 21:35:52",
+    "action": "ai_conversation",
+    "status": "interaction_summary",
+    "user": "keypad",
+    "details": "Visitor: lucky | Purpose: testing testing project | Intent: general"
+  },
+  {
+    "timestamp": "2025-06-15 21:35:43",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Thank you, lucky. I've recorded your visit details and I'm notifying the residents now."
+  },
+  {
+    "timestamp": "2025-06-15 21:35:43",
+    "action": "ai_conversation",
+    "status": "intent_detected",
+    "user": "keypad",
+    "details": "Intent: general | Visitor: lucky"
+  },
+  {
+    "timestamp": "2025-06-15 21:35:43",
+    "action": "ai_conversation",
+    "status": "visit_purpose",
+    "user": "keypad",
+    "details": "Purpose: testing testing project | Confidence: 0.85 | Visitor: lucky"
+  },
+  {
+    "timestamp": "2025-06-15 21:35:22",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Nice to meet you, lucky. What is the purpose of your visit today?"
+  },
+  {
+    "timestamp": "2025-06-15 21:35:22",
+    "action": "ai_conversation",
+    "status": "visitor_name",
+    "user": "keypad",
+    "details": "Name: lucky | Confidence: 0.85"
+  },
+  {
+    "timestamp": "2025-06-15 21:35:03",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Hello! Welcome to our smart door system. May I please have your name?"
+  },
+  {
+    "timestamp": "2025-06-15 21:35:03",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "D key pressed - AI conversation started"
+  },
+  {
+    "timestamp": "2025-06-15 21:34:52",
+    "action": "ai",
+    "status": "interaction_ended",
+    "user": "keypad",
+    "details": "AI conversation session ended"
+  },
+  {
+    "timestamp": "2025-06-15 21:34:50",
+    "action": "ai",
+    "status": "interaction_stopped",
+    "user": "keypad",
+    "details": "# key pressed - AI conversation stopped"
+  },
+  {
+    "timestamp": "2025-06-15 21:34:45",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Hello! Welcome to our smart door system. May I please have your name?"
+  },
+  {
+    "timestamp": "2025-06-15 21:34:45",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "D key pressed - AI conversation started"
+  },
+  {
+    "timestamp": "2025-06-15 21:33:49",
+    "action": "ai",
+    "status": "interaction_ended",
+    "user": "keypad",
+    "details": "AI conversation session ended"
+  },
+  {
+    "timestamp": "2025-06-15 21:33:49",
+    "action": "ai_conversation",
+    "status": "completed",
+    "user": "keypad",
+    "details": "Conversation completed with Unknown Visitor"
+  },
+  {
+    "timestamp": "2025-06-15 21:33:41",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Thank you, Unknown Visitor! The residents have been notified. Have a great day!"
+  },
+  {
+    "timestamp": "2025-06-15 21:33:41",
+    "action": "ai_conversation",
+    "status": "purpose_unclear",
+    "user": "keypad",
+    "details": "Purpose unclear | Confidence: 0.00 | Visitor: Unknown Visitor"
+  },
+  {
+    "timestamp": "2025-06-15 21:33:33",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "I didn't catch the purpose clearly, Unknown Visitor, but I've notified the residents of your visit."
+  },
+  {
+    "timestamp": "2025-06-15 21:33:20",
+    "action": "ai_conversation",
+    "status": "name_unclear",
+    "user": "keypad",
+    "details": "Name transcription failed | Confidence: 0.00"
+  },
+  {
+    "timestamp": "2025-06-15 21:33:12",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "I didn't catch your name clearly, but that's okay. What is the purpose of your visit today?"
+  },
+  {
+    "timestamp": "2025-06-15 21:32:55",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Hello! Welcome to our smart door system. May I please have your name?"
+  },
+  {
+    "timestamp": "2025-06-15 21:32:55",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "D key pressed - AI conversation started"
+  },
+  {
+    "timestamp": "2025-06-15 21:32:43",
+    "action": "ai",
+    "status": "interaction_ended",
+    "user": "keypad",
+    "details": "AI conversation session ended"
+  },
+  {
+    "timestamp": "2025-06-15 21:32:43",
+    "action": "ai_conversation",
+    "status": "completed",
+    "user": "keypad",
+    "details": "Conversation completed with Unknown Visitor"
+  },
+  {
+    "timestamp": "2025-06-15 21:32:34",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Thank you, Unknown Visitor! The residents have been notified. Have a great day!"
+  },
+  {
+    "timestamp": "2025-06-15 21:32:34",
+    "action": "ai_conversation",
+    "status": "purpose_unclear",
+    "user": "keypad",
+    "details": "Purpose unclear | Confidence: 0.00 | Visitor: Unknown Visitor"
+  },
+  {
+    "timestamp": "2025-06-15 21:32:26",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "I didn't catch the purpose clearly, Unknown Visitor, but I've notified the residents of your visit."
+  },
+  {
+    "timestamp": "2025-06-15 21:32:12",
+    "action": "ai_conversation",
+    "status": "name_unclear",
+    "user": "keypad",
+    "details": "Name transcription failed | Confidence: 0.00"
+  },
+  {
+    "timestamp": "2025-06-15 21:32:04",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "I didn't catch your name clearly, but that's okay. What is the purpose of your visit today?"
+  },
+  {
+    "timestamp": "2025-06-15 21:31:46",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Hello! Welcome to our smart door system. May I please have your name?"
+  },
+  {
+    "timestamp": "2025-06-15 21:31:46",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "D key pressed - AI conversation started"
+  },
+  {
+    "timestamp": "2025-06-15 21:20:36",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "I didn't catch your name clearly, but that's okay. What is the purpose of your visit today?"
+  },
+  {
+    "timestamp": "2025-06-15 21:20:17",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Hello! Welcome to our smart door system. May I please have your name?"
+  },
+  {
+    "timestamp": "2025-06-15 21:20:17",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "D key pressed - AI conversation started"
+  },
+  {
+    "timestamp": "2025-06-15 21:23:30",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Hello! Welcome to our smart door system. May I please have your name?"
+  },
+  {
+    "timestamp": "2025-06-15 21:23:30",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "D key pressed - AI conversation started"
+  },
+  {
+    "timestamp": "2025-06-15 21:23:30",
+    "action": "ai",
+    "status": "interaction_ended",
+    "user": "keypad",
+    "details": "AI conversation session ended"
+  },
+  {
+    "timestamp": "2025-06-15 21:23:25",
+    "action": "ai",
+    "status": "interaction_ended",
+    "user": "keypad",
+    "details": "AI conversation session ended"
+  },
+  {
+    "timestamp": "2025-06-15 21:23:25",
+    "action": "ai",
+    "status": "interaction_stopped",
+    "user": "keypad",
+    "details": "# key pressed - AI conversation stopped"
+  },
+  {
+    "timestamp": "2025-06-15 21:23:23",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Hello! Welcome to our smart door system. May I please have your name?"
+  },
+  {
+    "timestamp": "2025-06-15 21:23:23",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "D key pressed - AI conversation started"
+  },
+  {
+    "timestamp": "2025-06-15 21:23:20",
+    "action": "ai",
+    "status": "interaction_stopped",
+    "user": "keypad",
+    "details": "# key pressed - AI conversation stopped"
+  },
+  {
+    "timestamp": "2025-06-15 21:23:18",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Hello! Welcome to our smart door system. May I please have your name?"
+  },
+  {
+    "timestamp": "2025-06-15 21:23:18",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "D key pressed - AI conversation started"
+  },
+  {
+    "timestamp": "2025-06-15 21:23:17",
+    "action": "ai",
+    "status": "interaction_ended",
+    "user": "keypad",
+    "details": "AI conversation session ended"
+  },
+  {
+    "timestamp": "2025-06-15 21:23:17",
+    "action": "ai_conversation",
+    "status": "completed",
+    "user": "keypad",
+    "details": "Conversation completed with Unknown Visitor"
+  },
+  {
+    "timestamp": "2025-06-15 21:23:17",
+    "action": "ai_conversation",
+    "status": "purpose_unclear",
+    "user": "keypad",
+    "details": "Purpose unclear | Confidence: 0.00 | Visitor: Unknown Visitor"
+  },
+  {
+    "timestamp": "2025-06-15 21:23:14",
+    "action": "ai",
+    "status": "interaction_stopped",
+    "user": "keypad",
+    "details": "# key pressed - AI conversation stopped"
+  },
+  {
+    "timestamp": "2025-06-15 21:23:08",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "I didn't catch the purpose clearly, Unknown Visitor, but I've notified the residents of your visit."
+  },
+  {
+    "timestamp": "2025-06-15 21:22:56",
+    "action": "ai_conversation",
+    "status": "name_unclear",
+    "user": "keypad",
+    "details": "Name transcription failed | Confidence: 0.00"
+  },
+  {
+    "timestamp": "2025-06-15 21:22:48",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "I didn't catch your name clearly, but that's okay. What is the purpose of your visit today?"
+  },
+  {
+    "timestamp": "2025-06-15 21:22:31",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Hello! Welcome to our smart door system. May I please have your name?"
+  },
+  {
+    "timestamp": "2025-06-15 21:22:31",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "D key pressed - AI conversation started"
+  },
+  {
+    "timestamp": "2025-06-15 21:22:17",
+    "action": "ai",
+    "status": "interaction_ended",
+    "user": "keypad",
+    "details": "AI conversation session ended"
+  },
+  {
+    "timestamp": "2025-06-15 21:22:17",
+    "action": "ai_conversation",
+    "status": "completed",
+    "user": "keypad",
+    "details": "Conversation completed with lucky"
+  },
+  {
+    "timestamp": "2025-06-15 21:22:10",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Thank you, lucky! The residents have been notified. Have a great day!"
+  },
+  {
+    "timestamp": "2025-06-15 21:22:10",
+    "action": "ai_conversation",
+    "status": "interaction_summary",
+    "user": "keypad",
+    "details": "Visitor: lucky | Purpose: checking | Intent: general"
+  },
+  {
+    "timestamp": "2025-06-15 21:22:02",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Thank you, lucky. I've recorded your visit details and I'm notifying the residents now."
+  },
+  {
+    "timestamp": "2025-06-15 21:22:01",
+    "action": "ai_conversation",
+    "status": "intent_detected",
+    "user": "keypad",
+    "details": "Intent: general | Visitor: lucky"
+  },
+  {
+    "timestamp": "2025-06-15 21:22:01",
+    "action": "ai_conversation",
+    "status": "visit_purpose",
+    "user": "keypad",
+    "details": "Purpose: checking | Confidence: 0.85 | Visitor: lucky"
+  },
+  {
+    "timestamp": "2025-06-15 21:21:42",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Nice to meet you, lucky. What is the purpose of your visit today?"
+  },
+  {
+    "timestamp": "2025-06-15 21:21:41",
+    "action": "ai_conversation",
+    "status": "visitor_name",
+    "user": "keypad",
+    "details": "Name: lucky | Confidence: 0.85"
+  },
+  {
+    "timestamp": "2025-06-15 21:21:22",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Hello! Welcome to our smart door system. May I please have your name?"
+  },
+  {
+    "timestamp": "2025-06-15 21:21:22",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "D key pressed - AI conversation started"
+  },
+  {
+    "timestamp": "2025-06-15 21:20:50",
+    "action": "ai",
+    "status": "interaction_ended",
+    "user": "keypad",
+    "details": "AI conversation session ended"
+  },
+  {
+    "timestamp": "2025-06-15 21:20:50",
+    "action": "ai_conversation",
+    "status": "completed",
+    "user": "keypad",
+    "details": "Conversation completed with Unknown Visitor"
+  },
+  {
+    "timestamp": "2025-06-15 21:20:50",
+    "action": "ai_conversation",
+    "status": "purpose_unclear",
+    "user": "keypad",
+    "details": "Purpose unclear | Confidence: 0.00 | Visitor: Unknown Visitor"
+  },
+  {
+    "timestamp": "2025-06-15 21:20:50",
+    "action": "ai",
+    "status": "interaction_stopped",
+    "user": "keypad",
+    "details": "# key pressed - AI conversation stopped"
+  },
+  {
+    "timestamp": "2025-06-15 21:20:38",
+    "action": "ai_conversation",
+    "status": "name_unclear",
+    "user": "keypad",
+    "details": "Name transcription failed | Confidence: 0.00"
+  },
+  {
+    "timestamp": "2025-06-15 21:20:30",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "I didn't catch your name clearly, but that's okay. What is the purpose of your visit today?"
+  },
+  {
+    "timestamp": "2025-06-15 21:20:13",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Hello! Welcome to our smart door system. May I please have your name?"
+  },
+  {
+    "timestamp": "2025-06-15 21:20:13",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "D key pressed - AI conversation started"
+  },
+  {
+    "timestamp": "2025-06-15 21:20:03",
+    "action": "ai",
+    "status": "interaction_ended",
+    "user": "keypad",
+    "details": "AI conversation session ended"
+  },
+  {
+    "timestamp": "2025-06-15 21:19:59",
+    "action": "ai",
+    "status": "interaction_stopped",
+    "user": "keypad",
+    "details": "# key pressed - AI conversation stopped"
+  },
+  {
+    "timestamp": "2025-06-15 21:19:56",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Hello! Welcome to our smart door system. May I please have your name?"
+  },
+  {
+    "timestamp": "2025-06-15 21:19:56",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "D key pressed - AI conversation started"
+  },
+  {
+    "timestamp": "2025-06-15 21:19:53",
+    "action": "ai",
+    "status": "interaction_ended",
+    "user": "keypad",
+    "details": "AI conversation session ended"
+  },
+  {
+    "timestamp": "2025-06-15 21:19:53",
+    "action": "ai_conversation",
+    "status": "name_no_audio",
+    "user": "keypad",
+    "details": "No audio recorded for name"
+  },
+  {
+    "timestamp": "2025-06-15 21:19:51",
+    "action": "ai",
+    "status": "interaction_ended",
+    "user": "keypad",
+    "details": "AI conversation session ended"
+  },
+  {
+    "timestamp": "2025-06-15 21:19:51",
+    "action": "ai_conversation",
+    "status": "completed",
+    "user": "keypad",
+    "details": "Conversation completed with Unknown Visitor"
+  },
+  {
+    "timestamp": "2025-06-15 21:19:51",
+    "action": "ai_conversation",
+    "status": "purpose_no_audio",
+    "user": "keypad",
+    "details": "No audio for purpose | Visitor: Unknown Visitor"
+  },
+  {
+    "timestamp": "2025-06-15 21:19:50",
+    "action": "ai",
+    "status": "interaction_ended",
+    "user": "keypad",
+    "details": "AI conversation session ended"
+  },
+  {
+    "timestamp": "2025-06-15 21:19:47",
+    "action": "ai",
+    "status": "interaction_stopped",
+    "user": "keypad",
+    "details": "# key pressed - AI conversation stopped"
+  },
+  {
+    "timestamp": "2025-06-15 21:19:45",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "I didn't hear your name, but that's fine. What is the purpose of your visit today?"
+  },
+  {
+    "timestamp": "2025-06-15 21:19:43",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Hello! Welcome to our smart door system. May I please have your name?"
+  },
+  {
+    "timestamp": "2025-06-15 21:19:43",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "D key pressed - AI conversation started"
+  },
+  {
+    "timestamp": "2025-06-15 21:19:41",
+    "action": "ai",
+    "status": "interaction_stopped",
+    "user": "keypad",
+    "details": "# key pressed - AI conversation stopped"
+  },
+  {
+    "timestamp": "2025-06-15 21:19:40",
+    "action": "ai_conversation",
+    "status": "name_unclear",
+    "user": "keypad",
+    "details": "Name transcription failed | Confidence: 0.00"
+  },
+  {
+    "timestamp": "2025-06-15 21:19:38",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Hello! Welcome to our smart door system. May I please have your name?"
+  },
+  {
+    "timestamp": "2025-06-15 21:19:38",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "D key pressed - AI conversation started"
+  },
+  {
+    "timestamp": "2025-06-15 21:19:35",
+    "action": "ai",
+    "status": "interaction_stopped",
+    "user": "keypad",
+    "details": "# key pressed - AI conversation stopped"
+  },
+  {
+    "timestamp": "2025-06-15 21:19:32",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "I didn't catch your name clearly, but that's okay. What is the purpose of your visit today?"
+  },
+  {
+    "timestamp": "2025-06-15 21:19:14",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Hello! Welcome to our smart door system. May I please have your name?"
+  },
+  {
+    "timestamp": "2025-06-15 21:19:14",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "D key pressed - AI conversation started"
+  },
+  {
+    "timestamp": "2025-06-15 21:18:54",
+    "action": "door",
+    "status": "lock",
+    "user": "keypad",
+    "details": "Auto-lock"
+  },
+  {
+    "timestamp": "2025-06-15 21:18:47",
+    "action": "passcode",
+    "status": "success",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:18:47",
+    "action": "door",
+    "status": "unlock",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:18:23",
+    "action": "passcode",
+    "status": "failed",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:18:15",
+    "action": "camera",
+    "status": "streaming_stopped",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:17:51",
+    "action": "camera",
+    "status": "streaming_started",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:17:11",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Hello! Welcome to our smart door system. May I please have your name?"
+  },
+  {
+    "timestamp": "2025-06-15 21:17:11",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "D key pressed - AI conversation started"
+  },
+  {
+    "timestamp": "2025-06-15 21:17:08",
+    "action": "passcode",
+    "status": "failed",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:16:55",
+    "action": "passcode",
+    "status": "failed",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:16:42",
+    "action": "door",
+    "status": "lock",
+    "user": "keypad",
+    "details": "Auto-lock"
+  },
+  {
+    "timestamp": "2025-06-15 21:16:35",
+    "action": "passcode",
+    "status": "success",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:16:35",
+    "action": "door",
+    "status": "unlock",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:15:26",
+    "action": "door",
+    "status": "lock",
+    "user": "keypad",
+    "details": "Auto-lock"
+  },
+  {
+    "timestamp": "2025-06-15 21:15:19",
+    "action": "passcode",
+    "status": "success",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:15:19",
+    "action": "door",
+    "status": "unlock",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:14:22",
+    "action": "door",
+    "status": "lock",
+    "user": "keypad",
+    "details": "Auto-lock"
+  },
+  {
+    "timestamp": "2025-06-15 21:14:15",
+    "action": "passcode",
+    "status": "success",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:14:15",
+    "action": "door",
+    "status": "unlock",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:13:42",
+    "action": "door",
+    "status": "lock",
+    "user": "keypad",
+    "details": "Auto-lock"
+  },
+  {
+    "timestamp": "2025-06-15 21:13:35",
+    "action": "passcode",
+    "status": "success",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:13:35",
+    "action": "door",
+    "status": "unlock",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:12:37",
+    "action": "door",
+    "status": "lock",
+    "user": "keypad",
+    "details": "Auto-lock"
+  },
+  {
+    "timestamp": "2025-06-15 21:12:30",
+    "action": "passcode",
+    "status": "success",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:12:30",
+    "action": "door",
+    "status": "unlock",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:12:12",
+    "action": "door",
+    "status": "lock",
+    "user": "keypad",
+    "details": "Auto-lock"
+  },
+  {
+    "timestamp": "2025-06-15 21:12:10",
+    "action": "door",
+    "status": "lock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:12:10",
+    "action": "door",
+    "status": "unlock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:12:10",
+    "action": "door",
+    "status": "lock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:12:10",
+    "action": "door",
+    "status": "unlock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:12:10",
+    "action": "door",
+    "status": "lock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:12:09",
+    "action": "door",
+    "status": "unlock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:12:05",
+    "action": "passcode",
+    "status": "success",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:12:05",
+    "action": "door",
+    "status": "unlock",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:11:53",
+    "action": "door",
+    "status": "lock",
+    "user": "keypad",
+    "details": "Auto-lock"
+  },
+  {
+    "timestamp": "2025-06-15 21:11:46",
+    "action": "passcode",
+    "status": "success",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:11:45",
+    "action": "door",
+    "status": "unlock",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:11:22",
+    "action": "camera",
+    "status": "streaming_stopped",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:11:09",
+    "action": "camera",
+    "status": "capture",
+    "user": "admin",
+    "details": "capture_20250615_211109.jpg"
+  },
+  {
+    "timestamp": "2025-06-15 21:10:47",
+    "action": "camera",
+    "status": "streaming_started",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:10:44",
+    "action": "door",
+    "status": "lock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:10:37",
+    "action": "door",
+    "status": "unlock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:10:32",
+    "action": "settings",
+    "status": "updated",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:10:26",
+    "action": "door",
+    "status": "lock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:10:20",
+    "action": "door",
+    "status": "unlock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:10:16",
+    "action": "door",
+    "status": "lock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:10:11",
+    "action": "door",
+    "status": "unlock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:08:18",
+    "action": "login",
+    "status": "success",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 21:08:06",
+    "action": "logout",
+    "status": "success",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 20:48:11",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Hello! Welcome to our smart door system. May I please have your name?"
+  },
+  {
+    "timestamp": "2025-06-15 20:48:11",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "D key pressed - AI conversation started"
+  },
+  {
+    "timestamp": "2025-06-15 20:35:44",
+    "action": "login",
+    "status": "success",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 20:33:40",
+    "action": "logout",
+    "status": "success",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 20:32:10",
+    "action": "camera",
+    "status": "streaming_stopped",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 20:32:08",
+    "action": "camera",
+    "status": "streaming_started",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 20:21:12",
+    "action": "ai",
+    "status": "interaction_ended",
+    "user": "keypad",
+    "details": "AI conversation session ended"
+  },
+  {
+    "timestamp": "2025-06-15 20:21:12",
+    "action": "ai_conversation",
+    "status": "completed",
+    "user": "keypad",
+    "details": "Conversation completed with para grace grilling marie jane jade anne mae yes"
+  },
+  {
+    "timestamp": "2025-06-15 20:21:02",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Thank you, para grace grilling marie jane jade anne mae yes! The residents have been notified. Have a great day!"
+  },
+  {
+    "timestamp": "2025-06-15 20:21:02",
+    "action": "ai_conversation",
+    "status": "interaction_summary",
+    "user": "keypad",
+    "details": "Visitor: para grace grilling marie jane jade anne mae yes | Purpose: hanap po si janna nandiyan ba siya punta kaming sm | Intent: general"
+  },
+  {
+    "timestamp": "2025-06-15 20:20:51",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Thank you, para grace grilling marie jane jade anne mae yes. I've recorded your visit details and I'm notifying the residents now."
+  },
+  {
+    "timestamp": "2025-06-15 20:20:51",
+    "action": "ai_conversation",
+    "status": "intent_detected",
+    "user": "keypad",
+    "details": "Intent: general | Visitor: para grace grilling marie jane jade anne mae yes"
+  },
+  {
+    "timestamp": "2025-06-15 20:20:51",
+    "action": "ai_conversation",
+    "status": "visit_purpose",
+    "user": "keypad",
+    "details": "Purpose: hanap po si janna nandiyan ba siya punta kaming sm | Confidence: 0.85 | Visitor: para grace grilling marie jane jade anne mae yes"
+  },
+  {
+    "timestamp": "2025-06-15 20:20:25",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Nice to meet you, para grace grilling marie jane jade anne mae yes. What is the purpose of your visit today?"
+  },
+  {
+    "timestamp": "2025-06-15 20:20:25",
+    "action": "ai_conversation",
+    "status": "visitor_name",
+    "user": "keypad",
+    "details": "Name: para grace grilling marie jane jade anne mae yes | Confidence: 0.85"
+  },
+  {
+    "timestamp": "2025-06-15 20:20:01",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Hello! Welcome to our smart door system. May I please have your name?"
+  },
+  {
+    "timestamp": "2025-06-15 20:20:01",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "D key pressed - AI conversation started"
+  },
+  {
+    "timestamp": "2025-06-15 20:15:38",
+    "action": "ai",
+    "status": "interaction_ended",
+    "user": "keypad",
+    "details": "AI conversation session ended"
+  },
+  {
+    "timestamp": "2025-06-15 20:15:38",
+    "action": "ai_conversation",
+    "status": "completed",
+    "user": "keypad",
+    "details": "Conversation completed with si sarah grace giling marie"
+  },
+  {
+    "timestamp": "2025-06-15 20:15:29",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Thank you, si sarah grace giling marie! The residents have been notified. Have a great day!"
+  },
+  {
+    "timestamp": "2025-06-15 20:15:29",
+    "action": "ai_conversation",
+    "status": "interaction_summary",
+    "user": "keypad",
+    "details": "Visitor: si sarah grace giling marie | Purpose: hinahanap ko si janna | Intent: greeting"
+  },
+  {
+    "timestamp": "2025-06-15 20:15:19",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Hello, si sarah grace giling marie! Thank you for visiting. I'm processing your visit information now."
+  },
+  {
+    "timestamp": "2025-06-15 20:15:19",
+    "action": "ai_conversation",
+    "status": "intent_detected",
+    "user": "keypad",
+    "details": "Intent: greeting | Visitor: si sarah grace giling marie"
+  },
+  {
+    "timestamp": "2025-06-15 20:15:19",
+    "action": "ai_conversation",
+    "status": "visit_purpose",
+    "user": "keypad",
+    "details": "Purpose: hinahanap ko si janna | Confidence: 0.85 | Visitor: si sarah grace giling marie"
+  },
+  {
+    "timestamp": "2025-06-15 20:14:56",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Nice to meet you, si sarah grace giling marie. What is the purpose of your visit today?"
+  },
+  {
+    "timestamp": "2025-06-15 20:14:56",
+    "action": "ai_conversation",
+    "status": "visitor_name",
+    "user": "keypad",
+    "details": "Name: si sarah grace giling marie | Confidence: 0.85"
+  },
+  {
+    "timestamp": "2025-06-15 20:14:37",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Hello! Welcome to our smart door system. May I please have your name?"
+  },
+  {
+    "timestamp": "2025-06-15 20:14:37",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "D key pressed - AI conversation started"
+  },
+  {
+    "timestamp": "2025-06-15 20:09:25",
+    "action": "door",
+    "status": "lock",
+    "user": "keypad",
+    "details": "Auto-lock"
+  },
+  {
+    "timestamp": "2025-06-15 20:09:20",
+    "action": "passcode",
+    "status": "success",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 20:09:20",
+    "action": "door",
+    "status": "unlock",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 20:08:37",
+    "action": "ai",
+    "status": "interaction_ended",
+    "user": "keypad",
+    "details": "AI conversation session ended"
+  },
+  {
+    "timestamp": "2025-06-15 20:08:37",
+    "action": "ai_conversation",
+    "status": "completed",
+    "user": "keypad",
+    "details": "Conversation completed with sarah"
+  },
+  {
+    "timestamp": "2025-06-15 20:08:30",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Thank you, sarah! The residents have been notified. Have a great day!"
+  },
+  {
+    "timestamp": "2025-06-15 20:08:30",
+    "action": "ai_conversation",
+    "status": "interaction_summary",
+    "user": "keypad",
+    "details": "Visitor: sarah | Purpose: nandiyan ba si janna pupunta kasi kami ng sm tapos hindi siya sumasagot sa mga tawag ko | Intent: greeting"
+  },
+  {
+    "timestamp": "2025-06-15 20:08:21",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Hello, sarah! Thank you for visiting. I'm processing your visit information now."
+  },
+  {
+    "timestamp": "2025-06-15 20:08:21",
+    "action": "ai_conversation",
+    "status": "intent_detected",
+    "user": "keypad",
+    "details": "Intent: greeting | Visitor: sarah"
+  },
+  {
+    "timestamp": "2025-06-15 20:08:21",
+    "action": "ai_conversation",
+    "status": "visit_purpose",
+    "user": "keypad",
+    "details": "Purpose: nandiyan ba si janna pupunta kasi kami ng sm tapos hindi siya sumasagot sa mga tawag ko | Confidence: 0.85 | Visitor: sarah"
+  },
+  {
+    "timestamp": "2025-06-15 20:07:55",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Nice to meet you, sarah. What is the purpose of your visit today?"
+  },
+  {
+    "timestamp": "2025-06-15 20:07:55",
+    "action": "ai_conversation",
+    "status": "visitor_name",
+    "user": "keypad",
+    "details": "Name: sarah | Confidence: 0.85"
+  },
+  {
+    "timestamp": "2025-06-15 20:07:38",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Hello! Welcome to our smart door system. May I please have your name?"
+  },
+  {
+    "timestamp": "2025-06-15 20:07:38",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "D key pressed - AI conversation started"
+  },
+  {
+    "timestamp": "2025-06-15 20:06:16",
+    "action": "ai",
+    "status": "interaction_ended",
+    "user": "keypad",
+    "details": "AI conversation session ended"
+  },
+  {
+    "timestamp": "2025-06-15 20:06:16",
+    "action": "ai_conversation",
+    "status": "completed",
+    "user": "keypad",
+    "details": "Conversation completed with my name is mark roble"
+  },
+  {
+    "timestamp": "2025-06-15 20:06:08",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Thank you, my name is mark roble! The residents have been notified. Have a great day!"
+  },
+  {
+    "timestamp": "2025-06-15 20:06:08",
+    "action": "ai_conversation",
+    "status": "interaction_summary",
+    "user": "keypad",
+    "details": "Visitor: my name is mark roble | Purpose: hinahanap ko si janna nandiyan ba siya | Intent: greeting"
+  },
+  {
+    "timestamp": "2025-06-15 20:05:59",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Hello, my name is mark roble! Thank you for visiting. I'm processing your visit information now."
+  },
+  {
+    "timestamp": "2025-06-15 20:05:59",
+    "action": "ai_conversation",
+    "status": "intent_detected",
+    "user": "keypad",
+    "details": "Intent: greeting | Visitor: my name is mark roble"
+  },
+  {
+    "timestamp": "2025-06-15 20:05:59",
+    "action": "ai_conversation",
+    "status": "visit_purpose",
+    "user": "keypad",
+    "details": "Purpose: hinahanap ko si janna nandiyan ba siya | Confidence: 0.85 | Visitor: my name is mark roble"
+  },
+  {
+    "timestamp": "2025-06-15 20:05:36",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Nice to meet you, my name is mark roble. What is the purpose of your visit today?"
+  },
+  {
+    "timestamp": "2025-06-15 20:05:36",
+    "action": "ai_conversation",
+    "status": "visitor_name",
+    "user": "keypad",
+    "details": "Name: my name is mark roble | Confidence: 0.85"
+  },
+  {
+    "timestamp": "2025-06-15 20:05:16",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Hello! Welcome to our smart door system. May I please have your name?"
+  },
+  {
+    "timestamp": "2025-06-15 20:05:16",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "D key pressed - AI conversation started"
+  },
+  {
+    "timestamp": "2025-06-15 19:47:54",
+    "action": "camera",
+    "status": "streaming_stopped",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 19:47:49",
+    "action": "camera",
+    "status": "streaming_started",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 19:47:32",
+    "action": "ai",
+    "status": "interaction_ended",
+    "user": "keypad",
+    "details": "AI conversation completed"
+  },
+  {
+    "timestamp": "2025-06-15 19:47:26",
+    "action": "ai",
+    "status": "interaction_stopped",
+    "user": "keypad",
+    "details": "# key pressed - AI conversation stopped"
+  },
+  {
+    "timestamp": "2025-06-15 19:47:25",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Hello! Welcome to our smart door system. How can I help you today?"
+  },
+  {
+    "timestamp": "2025-06-15 19:47:25",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "D key pressed - AI conversation started"
+  },
+  {
+    "timestamp": "2025-06-15 19:46:34",
+    "action": "ai",
+    "status": "interaction_ended",
+    "user": "keypad",
+    "details": "AI conversation completed"
+  },
+  {
+    "timestamp": "2025-06-15 19:46:29",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Thank you for visiting! Have a great day!"
+  },
+  {
+    "timestamp": "2025-06-15 19:46:22",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Thank you for speaking. I'm notifying the residents of your visit."
+  },
+  {
+    "timestamp": "2025-06-15 19:46:22",
+    "action": "ai_conversation",
+    "status": "intent_detected",
+    "user": "keypad",
+    "details": "Intent: general"
+  },
+  {
+    "timestamp": "2025-06-15 19:46:22",
+    "action": "ai_conversation",
+    "status": "visitor_speech",
+    "user": "keypad",
+    "details": "Confidence: 0.85 - what"
+  },
+  {
+    "timestamp": "2025-06-15 19:46:03",
+    "action": "ai_conversation",
+    "status": "ai_speech",
+    "user": "keypad",
+    "details": "Hello! Welcome to our smart door system. How can I help you today?"
+  },
+  {
+    "timestamp": "2025-06-15 19:46:03",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "D key pressed - AI conversation started"
+  },
+  {
+    "timestamp": "2025-06-15 19:45:45",
+    "action": "door",
+    "status": "lock",
+    "user": "keypad",
+    "details": "Auto-lock"
+  },
+  {
+    "timestamp": "2025-06-15 19:45:40",
+    "action": "passcode",
+    "status": "success",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 19:45:40",
+    "action": "door",
+    "status": "unlock",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 19:45:34",
+    "action": "passcode",
+    "status": "failed",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 19:39:14",
+    "action": "fingerprint",
+    "status": "enrollment_failed",
+    "user": "admin",
+    "details": "Hardware enrollment failed for admin: Failed to capture first image"
+  },
+  {
+    "timestamp": "2025-06-15 19:38:49",
+    "action": "fingerprint",
+    "status": "enrollment_failed",
+    "user": "admin",
+    "details": "Hardware enrollment failed for admin: Failed to capture first image"
+  },
+  {
+    "timestamp": "2025-06-15 19:37:51",
+    "action": "camera",
+    "status": "streaming_stopped",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 19:37:46",
+    "action": "camera",
+    "status": "streaming_started",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 19:37:38",
+    "action": "door",
+    "status": "lock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 19:37:37",
+    "action": "door",
+    "status": "unlock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 19:36:24",
+    "action": "ai",
+    "status": "interaction_stopped",
+    "user": "keypad",
+    "details": "AI interaction stopped via # key"
+  },
+  {
+    "timestamp": "2025-06-15 19:36:06",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "Doorbell AI interaction started"
+  },
+  {
+    "timestamp": "2025-06-15 15:53:32",
+    "action": "door",
+    "status": "lock",
+    "user": "keypad",
+    "details": "Auto-lock"
+  },
+  {
+    "timestamp": "2025-06-15 15:53:27",
+    "action": "passcode",
+    "status": "success",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 15:53:27",
+    "action": "door",
+    "status": "unlock",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 15:53:14",
+    "action": "passcode",
+    "status": "failed",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 15:46:08",
+    "action": "fingerprint",
+    "status": "deleted",
+    "user": "admin",
+    "details": "Fingerprint data deleted for admin"
+  },
+  {
+    "timestamp": "2025-06-15 15:46:04",
+    "action": "fingerprint",
+    "status": "enrolled",
+    "user": "admin",
+    "details": "Fingerprint enrolled for admin"
+  },
+  {
+    "timestamp": "2025-06-15 15:45:26",
+    "action": "login",
+    "status": "success",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 15:42:18",
+    "action": "logout",
+    "status": "success",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 15:41:23",
+    "action": "camera",
+    "status": "streaming_stopped",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 15:41:20",
+    "action": "camera",
+    "status": "delete",
+    "user": "admin",
+    "details": "capture_20250615_131950.jpg"
+  },
+  {
+    "timestamp": "2025-06-15 15:41:18",
+    "action": "camera",
+    "status": "delete",
+    "user": "admin",
+    "details": "capture_20250615_133724.jpg"
+  },
+  {
+    "timestamp": "2025-06-15 15:41:16",
+    "action": "camera",
+    "status": "delete",
+    "user": "admin",
+    "details": "capture_20250615_154110.jpg"
+  },
+  {
+    "timestamp": "2025-06-15 15:41:10",
+    "action": "camera",
+    "status": "capture",
+    "user": "admin",
+    "details": "capture_20250615_154110.jpg"
+  },
+  {
+    "timestamp": "2025-06-15 15:41:09",
+    "action": "door",
+    "status": "lock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 15:41:06",
+    "action": "camera",
+    "status": "streaming_started",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 15:41:04",
+    "action": "door",
+    "status": "unlock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 15:40:54",
+    "action": "profile",
+    "status": "updated",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 15:40:54",
+    "action": "profile",
+    "status": "username_changed",
+    "user": "admin",
+    "details": "Username changed from admine to admin"
+  },
+  {
+    "timestamp": "2025-06-15 15:40:49",
+    "action": "profile",
+    "status": "updated",
+    "user": "admine",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 15:40:49",
+    "action": "profile",
+    "status": "username_changed",
+    "user": "admine",
+    "details": "Username changed from admin to admine"
+  },
+  {
+    "timestamp": "2025-06-15 15:17:56",
+    "action": "settings",
+    "status": "updated",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 15:11:51",
+    "action": "camera",
+    "status": "streaming_stopped",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 15:11:49",
+    "action": "camera",
+    "status": "streaming_started",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 15:11:48",
+    "action": "camera",
+    "status": "streaming_stopped",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 15:11:36",
+    "action": "camera",
+    "status": "streaming_started",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 15:11:31",
+    "action": "camera",
+    "status": "streaming_stopped",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 15:11:30",
+    "action": "camera",
+    "status": "streaming_started",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 15:09:34",
+    "action": "settings",
+    "status": "updated",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 15:09:05",
+    "action": "door",
+    "status": "lock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 15:09:00",
+    "action": "door",
+    "status": "unlock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 15:08:58",
+    "action": "login",
+    "status": "success",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 15:08:15",
+    "action": "camera",
+    "status": "streaming_stopped",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 15:08:14",
+    "action": "camera",
+    "status": "streaming_started",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 15:02:21",
+    "action": "login",
+    "status": "success",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 15:02:13",
+    "action": "logout",
+    "status": "success",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 15:02:02",
+    "action": "ai",
+    "status": "interaction_stopped",
+    "user": "keypad",
+    "details": "AI interaction stopped via # key"
+  },
+  {
+    "timestamp": "2025-06-15 15:02:02",
+    "action": "door",
+    "status": "lock",
+    "user": "keypad",
+    "details": "Auto-lock"
+  },
+  {
+    "timestamp": "2025-06-15 15:02:01",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "Doorbell AI interaction started"
+  },
+  {
+    "timestamp": "2025-06-15 15:01:57",
+    "action": "passcode",
+    "status": "success",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 15:01:57",
+    "action": "door",
+    "status": "unlock",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:55:03",
+    "action": "camera",
+    "status": "streaming_stopped",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:49:07",
+    "action": "door",
+    "status": "lock",
+    "user": "system",
+    "details": "Auto-lock"
+  },
+  {
+    "timestamp": "2025-06-15 14:49:03",
+    "action": "door",
+    "status": "lock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:49:02",
+    "action": "door",
+    "status": "unlock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:48:53",
+    "action": "camera",
+    "status": "streaming_started",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:48:40",
+    "action": "login",
+    "status": "success",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:48:32",
+    "action": "door",
+    "status": "lock",
+    "user": "keypad",
+    "details": "Auto-lock"
+  },
+  {
+    "timestamp": "2025-06-15 14:48:27",
+    "action": "passcode",
+    "status": "success",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:48:27",
+    "action": "door",
+    "status": "unlock",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:48:22",
+    "action": "passcode",
+    "status": "failed",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:45:29",
+    "action": "system",
+    "status": "lockout",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:45:29",
+    "action": "passcode",
+    "status": "failed",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:45:27",
+    "action": "ai",
+    "status": "interaction_stopped",
+    "user": "keypad",
+    "details": "AI interaction stopped via # key"
+  },
+  {
+    "timestamp": "2025-06-15 14:45:26",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "Doorbell AI interaction started"
+  },
+  {
+    "timestamp": "2025-06-15 14:45:19",
+    "action": "ai",
+    "status": "interaction_stopped",
+    "user": "keypad",
+    "details": "AI interaction stopped via # key"
+  },
+  {
+    "timestamp": "2025-06-15 14:45:18",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "Doorbell AI interaction started"
+  },
+  {
+    "timestamp": "2025-06-15 14:45:15",
+    "action": "passcode",
+    "status": "failed",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:45:13",
+    "action": "door",
+    "status": "lock",
+    "user": "keypad",
+    "details": "Auto-lock"
+  },
+  {
+    "timestamp": "2025-06-15 14:45:10",
+    "action": "passcode",
+    "status": "failed",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:45:08",
+    "action": "passcode",
+    "status": "success",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:45:08",
+    "action": "door",
+    "status": "unlock",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:42:26",
+    "action": "logout",
+    "status": "success",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:41:54",
+    "action": "door",
+    "status": "lock",
+    "user": "system",
+    "details": "Auto-lock"
+  },
+  {
+    "timestamp": "2025-06-15 14:41:50",
+    "action": "door",
+    "status": "lock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:41:49",
+    "action": "door",
+    "status": "unlock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:41:45",
+    "action": "login",
+    "status": "success",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:36:39",
+    "action": "ai",
+    "status": "interaction_stopped",
+    "user": "keypad",
+    "details": "AI interaction stopped via # key"
+  },
+  {
+    "timestamp": "2025-06-15 14:36:37",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "Doorbell AI interaction started"
+  },
+  {
+    "timestamp": "2025-06-15 14:36:33",
+    "action": "door",
+    "status": "lock",
+    "user": "keypad",
+    "details": "Auto-lock"
+  },
+  {
+    "timestamp": "2025-06-15 14:36:31",
+    "action": "passcode",
+    "status": "failed",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:36:28",
+    "action": "passcode",
+    "status": "success",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:36:28",
+    "action": "door",
+    "status": "unlock",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:02:56",
+    "action": "door",
+    "status": "lock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:02:51",
+    "action": "door",
+    "status": "unlock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:02:42",
+    "action": "login",
+    "status": "success",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:02:01",
+    "action": "door",
+    "status": "lock",
+    "user": "keypad",
+    "details": "Auto-lock"
+  },
+  {
+    "timestamp": "2025-06-15 14:01:56",
+    "action": "passcode",
+    "status": "success",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:01:56",
+    "action": "door",
+    "status": "unlock",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:01:50",
+    "action": "passcode",
+    "status": "failed",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:01:47",
+    "action": "door",
+    "status": "lock",
+    "user": "keypad",
+    "details": "Auto-lock"
+  },
+  {
+    "timestamp": "2025-06-15 14:01:42",
+    "action": "passcode",
+    "status": "success",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:01:42",
+    "action": "door",
+    "status": "unlock",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:01:36",
+    "action": "settings",
+    "status": "updated",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:01:12",
+    "action": "ai",
+    "status": "interaction_stopped",
+    "user": "keypad",
+    "details": "AI interaction stopped via # key"
+  },
+  {
+    "timestamp": "2025-06-15 14:01:11",
+    "action": "ai",
+    "status": "interaction_started",
+    "user": "keypad",
+    "details": "Doorbell AI interaction started"
+  },
+  {
+    "timestamp": "2025-06-15 14:01:06",
+    "action": "door",
+    "status": "lock",
+    "user": "keypad",
+    "details": "Auto-lock"
+  },
+  {
+    "timestamp": "2025-06-15 14:01:01",
+    "action": "passcode",
+    "status": "success",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:01:01",
+    "action": "door",
+    "status": "unlock",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 14:00:58",
+    "action": "passcode",
+    "status": "failed",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 13:38:32",
+    "action": "door",
+    "status": "lock",
+    "user": "keypad",
+    "details": "Auto-lock"
+  },
+  {
+    "timestamp": "2025-06-15 13:38:27",
+    "action": "passcode",
+    "status": "success",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 13:38:27",
+    "action": "door",
+    "status": "unlock",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 13:38:09",
+    "action": "door",
+    "status": "lock",
+    "user": "keypad",
+    "details": "Auto-lock"
+  },
+  {
+    "timestamp": "2025-06-15 13:38:04",
+    "action": "passcode",
+    "status": "success",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 13:38:04",
+    "action": "door",
+    "status": "unlock",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 13:37:49",
+    "action": "door",
+    "status": "unlock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 13:37:37",
+    "action": "camera",
+    "status": "streaming_stopped",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 13:37:24",
+    "action": "camera",
+    "status": "capture",
+    "user": "admin",
+    "details": "capture_20250615_133724.jpg"
+  },
+  {
+    "timestamp": "2025-06-15 13:37:22",
+    "action": "camera",
+    "status": "streaming_started",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 13:29:36",
+    "action": "camera",
+    "status": "streaming_stopped",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 13:29:33",
+    "action": "camera",
+    "status": "streaming_started",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 13:29:31",
+    "action": "door",
+    "status": "lock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 13:29:30",
+    "action": "door",
+    "status": "unlock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 13:21:30",
+    "action": "door",
+    "status": "lock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 13:21:25",
+    "action": "door",
+    "status": "unlock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 13:21:24",
+    "action": "camera",
+    "status": "streaming_stopped",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 13:20:20",
+    "action": "camera",
+    "status": "streaming_started",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 13:19:51",
+    "action": "camera",
+    "status": "streaming_stopped",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 13:19:50",
+    "action": "camera",
+    "status": "capture",
+    "user": "admin",
+    "details": "capture_20250615_131950.jpg"
+  },
+  {
+    "timestamp": "2025-06-15 13:19:47",
+    "action": "camera",
+    "status": "streaming_started",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 13:17:39",
+    "action": "door",
+    "status": "lock",
+    "user": "keypad",
+    "details": "Auto-lock"
+  },
+  {
+    "timestamp": "2025-06-15 13:17:34",
+    "action": "passcode",
+    "status": "success",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 13:17:34",
+    "action": "door",
+    "status": "unlock",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 13:17:31",
+    "action": "passcode",
+    "status": "failed",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 12:56:21",
+    "action": "door",
+    "status": "lock",
+    "user": "keypad",
+    "details": "Auto-lock"
+  },
+  {
+    "timestamp": "2025-06-15 12:56:16",
+    "action": "passcode",
+    "status": "success",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 12:56:16",
+    "action": "door",
+    "status": "unlock",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 12:56:14",
+    "action": "passcode",
+    "status": "failed",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 12:56:03",
+    "action": "door",
+    "status": "lock",
+    "user": "keypad",
+    "details": "Auto-lock"
+  },
+  {
+    "timestamp": "2025-06-15 12:55:58",
+    "action": "passcode",
+    "status": "success",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 12:55:58",
+    "action": "door",
+    "status": "unlock",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 12:55:53",
+    "action": "passcode",
+    "status": "failed",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 12:55:47",
+    "action": "door",
+    "status": "lock",
+    "user": "keypad",
+    "details": "Auto-lock"
+  },
+  {
+    "timestamp": "2025-06-15 12:55:42",
+    "action": "passcode",
+    "status": "success",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 12:55:42",
+    "action": "door",
+    "status": "unlock",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 12:55:31",
+    "action": "settings",
+    "status": "updated",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 12:55:18",
+    "action": "passcode",
+    "status": "failed",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 12:55:10",
+    "action": "passcode",
+    "status": "lockout_override",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 12:54:58",
+    "action": "passcode",
+    "status": "lockout_attempt",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 12:54:53",
+    "action": "system",
+    "status": "lockout",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 12:54:53",
+    "action": "passcode",
+    "status": "failed",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 12:54:43",
+    "action": "passcode",
+    "status": "failed",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 12:54:39",
+    "action": "passcode",
+    "status": "failed",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 12:54:30",
+    "action": "settings",
+    "status": "updated",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 12:54:24",
+    "action": "settings",
+    "status": "updated",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 12:52:55",
+    "action": "door",
+    "status": "lock",
+    "user": "keypad",
+    "details": "Auto-lock"
+  },
+  {
+    "timestamp": "2025-06-15 12:52:50",
+    "action": "passcode",
+    "status": "success",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 12:52:50",
+    "action": "door",
+    "status": "unlock",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 12:38:17",
+    "action": "passcode",
+    "status": "success",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 12:38:13",
+    "action": "passcode",
+    "status": "failed",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 12:37:33",
+    "action": "passcode",
+    "status": "success",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 12:36:58",
+    "action": "doorbell",
+    "status": "pressed",
+    "user": "keypad",
+    "details": "AI interaction requested"
+  },
+  {
+    "timestamp": "2025-06-15 12:36:51",
+    "action": "passcode",
+    "status": "failed",
+    "user": "keypad",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 12:36:41",
+    "action": "system",
+    "status": "status_check",
+    "user": "keypad",
+    "details": "Door: LOCKED, Camera: OFF"
+  },
+  {
+    "timestamp": "2025-06-15 12:23:31",
+    "action": "doorbell",
+    "status": "pressed",
+    "user": "keypad",
+    "details": "AI interaction requested"
+  },
+  {
+    "timestamp": "2025-06-15 12:19:37",
+    "action": "doorbell",
+    "status": "pressed",
+    "user": "keypad",
+    "details": "AI interaction requested"
+  },
+  {
+    "timestamp": "2025-06-15 12:10:03",
+    "action": "doorbell",
+    "status": "pressed",
+    "user": "keypad",
+    "details": "AI interaction requested"
+  },
+  {
+    "timestamp": "2025-06-15 12:10:00",
+    "action": "system",
+    "status": "status_check",
+    "user": "keypad",
+    "details": "Door: LOCKED, Camera: OFF"
+  },
+  {
+    "timestamp": "2025-06-15 12:09:51",
+    "action": "system",
+    "status": "status_check",
+    "user": "keypad",
+    "details": "Door: LOCKED, Camera: OFF"
+  },
+  {
+    "timestamp": "2025-06-15 12:02:47",
+    "action": "doorbell",
+    "status": "pressed",
+    "user": "keypad",
+    "details": "AI interaction requested"
+  },
+  {
+    "timestamp": "2025-06-15 11:58:01",
+    "action": "user",
+    "status": "edited",
+    "user": "admin",
+    "details": "Edited user: admin"
+  },
+  {
+    "timestamp": "2025-06-15 11:57:59",
+    "action": "fingerprint",
+    "status": "deleted",
+    "user": "admin",
+    "details": "Deleted fingerprint for admin"
+  },
+  {
+    "timestamp": "2025-06-15 11:57:31",
+    "action": "door",
+    "status": "lock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 11:57:30",
+    "action": "door",
+    "status": "unlock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 11:57:07",
+    "action": "camera",
+    "status": "delete",
+    "user": "admin",
+    "details": "capture_20250615_115658.jpg"
+  },
+  {
+    "timestamp": "2025-06-15 11:56:59",
+    "action": "camera",
+    "status": "streaming_stopped",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 11:56:58",
+    "action": "camera",
+    "status": "capture",
+    "user": "admin",
+    "details": "capture_20250615_115658.jpg"
+  },
+  {
+    "timestamp": "2025-06-15 11:56:57",
+    "action": "camera",
+    "status": "streaming_started",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 11:56:56",
+    "action": "camera",
+    "status": "streaming_stopped",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 11:56:40",
+    "action": "camera",
+    "status": "streaming_started",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 11:54:40",
+    "action": "fingerprint",
+    "status": "enrolled",
+    "user": "admin",
+    "details": "Enrolled fingerprint for admin"
+  },
+  {
+    "timestamp": "2025-06-15 11:52:10",
+    "action": "user",
+    "status": "edited",
+    "user": "Admin",
+    "details": "Edited user: admin"
+  },
+  {
+    "timestamp": "2025-06-15 11:51:53",
+    "action": "login",
+    "status": "success",
+    "user": "Admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 11:51:49",
+    "action": "login",
+    "status": "failed",
+    "user": "admin",
+    "details": "User not found"
+  },
+  {
+    "timestamp": "2025-06-15 11:51:39",
+    "action": "logout",
+    "status": "success",
+    "user": "Admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 11:51:08",
+    "action": "user",
+    "status": "edited",
+    "user": "admin",
+    "details": "Edited user: Admin"
+  },
+  {
+    "timestamp": "2025-06-15 11:50:24",
+    "action": "fingerprint",
+    "status": "deleted",
+    "user": "admin",
+    "details": "Deleted fingerprint for admin"
+  },
+  {
+    "timestamp": "2025-06-15 11:50:11",
+    "action": "fingerprint",
+    "status": "enrolled",
+    "user": "admin",
+    "details": "Enrolled fingerprint for admin"
+  },
+  {
+    "timestamp": "2025-06-15 11:49:44",
+    "action": "camera",
+    "status": "streaming_stopped",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 11:49:42",
+    "action": "camera",
+    "status": "streaming_started",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 11:49:36",
+    "action": "login",
+    "status": "success",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 11:47:15",
+    "action": "settings",
+    "status": "updated",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 11:47:00",
+    "action": "door",
+    "status": "unlock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 11:46:55",
+    "action": "user",
+    "status": "edited",
+    "user": "admin",
+    "details": "Edited user: admin"
+  },
+  {
+    "timestamp": "2025-06-15 11:46:47",
+    "action": "user",
+    "status": "edited",
+    "user": "admin",
+    "details": "Edited user: admin"
+  },
+  {
+    "timestamp": "2025-06-15 11:46:32",
+    "action": "camera",
+    "status": "streaming_stopped",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 11:46:02",
+    "action": "camera",
+    "status": "streaming_started",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 11:45:57",
+    "action": "login",
+    "status": "success",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 11:43:44",
+    "action": "camera",
+    "status": "streaming_started",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 11:43:42",
+    "action": "camera",
+    "status": "streaming_stopped",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 11:43:34",
+    "action": "camera",
+    "status": "streaming_started",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-15 11:43:30",
+    "action": "login",
+    "status": "success",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-14 20:30:07",
+    "action": "settings",
+    "status": "updated",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-14 20:29:59",
+    "action": "settings",
+    "status": "updated",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-14 20:29:47",
+    "action": "door",
+    "status": "lock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-14 20:29:46",
+    "action": "door",
+    "status": "unlock",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-14 20:29:43",
+    "action": "camera",
+    "status": "streaming_stopped",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-14 20:29:39",
+    "action": "camera",
+    "status": "streaming_started",
+    "user": "admin",
+    "details": ""
+  },
+  {
+    "timestamp": "2025-06-14 20:29:36",
+    "action": "login",
+    "status": "success",
+    "user": "admin",
+    "details": ""
+  }
+]

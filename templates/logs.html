@@ -1,0 +1,51 @@
+{% extends "layout.html" %}
+
+{% block title %}Activity Logs - Smart Door Lock System{% endblock %}
+
+{% block content %}
+<section class="section">
+    <div class="section-header">
+        <h2><i class="fas fa-list"></i> Activity Logs</h2>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <h3>Activity Logs</h3>
+            <div class="filter-controls">
+                <select id="log-filter">
+                    <option value="all">All Activities</option>
+                    <option value="door">Door Access</option>
+                    <option value="login">Authentication</option>
+                    <option value="camera">Camera</option>
+                    <option value="user">User Management</option>
+                    <option value="settings">Settings</option>
+                </select>
+                <button class="btn btn-sm" id="download-logs-btn">
+                    <i class="fas fa-download"></i> Download CSV
+                </button>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Timestamp</th>
+                            <th>Action</th>
+                            <th>Status</th>
+                            <th>User</th>
+                            <th>Details</th>
+                        </tr>
+                    </thead>
+                    <tbody id="logs-table-body">
+                        <!-- Logs will be loaded here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/logs.js') }}"></script>
+{% endblock %}

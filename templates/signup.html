@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Door Lock - Sign Up</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box signup-box">
+            <h1><i class="fas fa-lock"></i> Smart Door Lock</h1>
+            <h2>Create an Account</h2>
+            <div class="login-form">
+                <div class="form-group">
+                    <label for="fullname"><i class="fas fa-id-card"></i> Full Name</label>
+                    <input type="text" id="fullname" placeholder="Enter your full name">
+                </div>
+                <div class="form-group">
+                    <label for="email"><i class="fas fa-envelope"></i> Email</label>
+                    <input type="email" id="email" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="password"><i class="fas fa-key"></i> Password</label>
+                    <input type="password" id="password" placeholder="Choose a password">
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password"><i class="fas fa-lock"></i> Confirm Password</label>
+                    <input type="password" id="confirm-password" placeholder="Confirm your password">
+                </div>
+                <button id="signup-btn" class="btn btn-primary">Sign Up</button>
+                <div id="signup-error" class="error-message"></div>
+                <div class="form-footer">
+                    Already have an account? <a href="/login">Log In</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const signupBtn = document.getElementById('signup-btn');
+            const fullnameInput = document.getElementById('fullname');
+            const emailInput = document.getElementById('email');
+            const passwordInput = document.getElementById('password');
+            const confirmPasswordInput = document.getElementById('confirm-password');
+            const signupError = document.getElementById('signup-error');
+
+            signupBtn.addEventListener('click', function() {
+                const fullname = fullnameInput.value.trim();
+                const email = emailInput.value.trim();
+                const password = passwordInput.value.trim();
+                const confirmPassword = confirmPasswordInput.value.trim();
+
+                // Basic validation
+                if (!fullname || !email || !password || !confirmPassword) {
+                    signupError.textContent = 'Please fill in all fields';
+                    return;
+                }
+
+                if (password !== confirmPassword) {
+                    signupError.textContent = 'Passwords do not match';
+                    return;
+                }
+
+                // Generate username from full name (first name + last initial)
+                const nameParts = fullname.split(' ');
+                let username = nameParts[0].toLowerCase();
+                if (nameParts.length > 1) {
+                    username += nameParts[nameParts.length - 1].charAt(0).toLowerCase();
+                }
+                // Add random number to make it unique
+                username += Math.floor(Math.random() * 1000);
+
+                fetch('/signup', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ 
+                        username: username,
+                        name: fullname, 
+                        email, 
+                        password 
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        signupError.textContent = '';
+                        // Show success message
+                        const successMessage = document.createElement('div');
+                        successMessage.className = 'success-message';
+                        successMessage.textContent = `Registration successful! Your username is: ${username}. Your account is pending approval. You will be redirected to login.`;
+                        signupError.parentNode.insertBefore(successMessage, signupError);
+                        
+                        // Redirect to login page after 4 seconds
+                        setTimeout(() => {
+                            window.location.href = '/login';
+                        }, 4000);
+                    } else {
+                        signupError.textContent = data.message || 'Registration failed';
+                    }
+                })
+                .catch(error => {
+                    signupError.textContent = 'An error occurred. Please try again.';
+                    console.error('Error:', error);
+                });
+            });
+        });
+    </script>
+</body>
+</html>

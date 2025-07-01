@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header class="main-header">
+            <h1>Admin Dashboard</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#" data-section="dashboard" class="active"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+                    <li><a href="#" data-section="people"><i class="fas fa-users"></i> People</a></li>
+                    <li><a href="#" data-section="settings"><i class="fas fa-cog"></i> Settings</a></li>
+                    <li><a href="#" data-section="logs"><i class="fas fa-list"></i> Logs</a></li>
+                    <li><a href="#" data-section="metrics"><i class="fas fa-chart-bar"></i> Metrics</a></li>
+                    <li><a href="#" data-section="guide"><i class="fas fa-book"></i> Guide</a></li>
+                    <li><a href="#" data-section="profile"><i class="fas fa-user"></i> Profile</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="main-content">
+            <section id="dashboard" class="section active">
+                <div class="section-header">
+                    <h2><i class="fas fa-tachometer-alt"></i> Dashboard</h2>
+                </div>
+                <p>Welcome to the dashboard!</p>
+            </section>
+
+            <section id="people" class="section">
+                <div class="section-header">
+                    <h2><i class="fas fa-users"></i> People</h2>
+                </div>
+                <p>Manage users and their roles here.</p>
+            </section>
+
+            <section id="settings" class="section">
+                <div class="section-header">
+                    <h2><i class="fas fa-cog"></i> Settings</h2>
+                </div>
+                <p>Configure system settings.</p>
+            </section>
+
+            <section id="logs" class="section">
+                <div class="section-header">
+                    <h2><i class="fas fa-list"></i> Logs</h2>
+                </div>
+                <p>View system logs.</p>
+            </section>
+
+            <section id="metrics" class="section">
+                <div class="section-header">
+                    <h2><i class="fas fa-chart-bar"></i> Metrics</h2>
+                </div>
+                <p>Analyze system performance.</p>
+            </section>
+
+            <section id="guide" class="section">
+                <div class="section-header">
+                    <h2><i class="fas fa-book"></i> Guide</h2>
+                </div>
+                <p>Read the user guide.</p>
+            </section>
+
+            <!-- Profile Section -->
+            <div id="profile" class="section">
+                <div class="section-header">
+                    <h2><i class="fas fa-user"></i> User Profile</h2>
+                </div>
+                <div class="profile-grid">
+                    <!-- Profile Information Card -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h3><i class="fas fa-user-circle"></i> Profile Information</h3>
+                        </div>
+                        <div class="card-body">
+                            <form id="profile-form">
+                                <div class="form-group">
+                                    <label for="profile-username">Username</label>
+                                    <input type="text" id="profile-username" class="form-control" readonly>
+                                </div>
+                                <div class="form-group">
+                                    <label for="profile-name">Full Name</label>
+                                    <input type="text" id="profile-name" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="profile-email">Email</label>
+                                    <input type="email" id="profile-email" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="profile-role">Role</label>
+                                    <input type="text" id="profile-role" class="form-control" readonly>
+                                </div>
+                                <div class="form-group">
+                                    <label for="profile-password">New Password (leave blank to keep current)</label>
+                                    <input type="password" id="profile-password" class="form-control">
+                                </div>
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="fas fa-save"></i> Update Profile
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- User Permissions Card -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h3><i class="fas fa-key"></i> Permissions</h3>
+                        </div>
+                        <div class="card-body">
+                            <div id="user-permissions">
+                                <div class="loading">Loading permissions...</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Fingerprint Management Card -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h3><i class="fas fa-fingerprint"></i> Fingerprint Authentication</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="fingerprint-profile-section">
+                                <div class="fingerprint-status-display">
+                                    <div class="status-item">
+                                        <label>Status:</label>
+                                        <span id="profile-fingerprint-status" class="status-badge">Loading...</span>
+                                    </div>
+                                    <div class="status-item" id="enrollment-details" style="display: none;">
+                                        <label>Enrolled:</label>
+                                        <span id="enrollment-date"></span>
+                                    </div>
+                                </div>
+                                
+                                <div class="fingerprint-actions">
+                                    <button type="button" class="btn btn-primary" id="profile-enroll-fingerprint-btn" style="display: none;">
+                                        <i class="fas fa-fingerprint"></i> Enroll Fingerprint
+                                    </button>
+                                    <button type="button" class="btn btn-danger" id="profile-delete-fingerprint-btn" style="display: none;">
+                                        <i class="fas fa-trash"></i> Remove Fingerprint
+                                    </button>
+                                </div>
+                                
+                                <div class="fingerprint-info">
+                                    <p><i class="fas fa-info-circle"></i> Fingerprint authentication allows you to log in quickly and securely without entering your password.</p>
+                                    <p><strong>Note:</strong> You can use fingerprint authentication on the login page or physical keypad (if available).</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Recent Activity Card -->
+                    <div class="card">
+                        <div class="card-header">
+                            <h3><i class="fas fa-history"></i> Recent Activity</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="activity-list" id="profile-activity">
+                                <div class="loading">Loading activity...</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="main-footer">
+            <p>&copy; 2024 Admin Dashboard</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

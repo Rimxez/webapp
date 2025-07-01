@@ -1,0 +1,107 @@
+{
+  "conversation": [
+    {
+      "timestamp": "19:18:10",
+      "speaker": "USER",
+      "text": "hello it's me",
+      "confidence": 0.92789221
+    },
+    {
+      "timestamp": "19:18:10",
+      "speaker": "AI",
+      "text": "Perfect! I heard: hello it's me"
+    },
+    {
+      "timestamp": "19:18:24",
+      "speaker": "USER",
+      "text": "umaga na",
+      "confidence": 0.92789221
+    },
+    {
+      "timestamp": "19:18:24",
+      "speaker": "AI",
+      "text": "Perfect! I heard: umaga na"
+    },
+    {
+      "timestamp": "19:18:36",
+      "speaker": "USER",
+      "text": "kaya mo tagalog",
+      "confidence": 0.92789221
+    },
+    {
+      "timestamp": "19:18:36",
+      "speaker": "AI",
+      "text": "Perfect! I heard: kaya mo tagalog"
+    },
+    {
+      "timestamp": "19:18:57",
+      "speaker": "USER",
+      "text": "ang init sa pilipinas",
+      "confidence": 0.92789221
+    },
+    {
+      "timestamp": "19:18:57",
+      "speaker": "AI",
+      "text": "Perfect! I heard: ang init sa pilipinas"
+    },
+    {
+      "timestamp": "19:19:09",
+      "speaker": "USER",
+      "text": "shopee delivery po",
+      "confidence": 0.8388285
+    },
+    {
+      "timestamp": "19:19:09",
+      "speaker": "AI",
+      "text": "Perfect! I heard: shopee delivery po"
+    },
+    {
+      "timestamp": "19:19:34",
+      "speaker": "AI",
+      "text": "Hello! Welcome to our ultra-reliable smart door system."
+    },
+    {
+      "timestamp": "19:19:42",
+      "speaker": "AI",
+      "text": "What is your name? Please speak clearly."
+    },
+    {
+      "timestamp": "19:19:53",
+      "speaker": "USER",
+      "text": "my name is ariel",
+      "confidence": 0.92789221
+    },
+    {
+      "timestamp": "19:19:53",
+      "speaker": "AI",
+      "text": "Perfect! Nice to meet you, my name is ariel!"
+    },
+    {
+      "timestamp": "19:20:01",
+      "speaker": "AI",
+      "text": "What is the purpose of your visit today? Please speak clearly and take your time."
+    },
+    {
+      "timestamp": "19:20:17",
+      "speaker": "USER",
+      "text": "i am here to test a paper",
+      "confidence": 0.92789221
+    },
+    {
+      "timestamp": "19:20:17",
+      "speaker": "AI",
+      "text": "Thank you! I understand you're here because: i am here to test a paper. I'll process this information."
+    }
+  ],
+  "engines_used": {
+    "vosk": false,
+    "google": true,
+    "whisper": false,
+    "sphinx": true
+  },
+  "settings": {
+    "confidence_threshold": 0.7,
+    "sample_rate": 16000,
+    "max_attempts": 3
+  }
+}

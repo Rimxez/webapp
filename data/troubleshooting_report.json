@@ -1,0 +1,31 @@
+{
+  "timestamp": "2025-06-15 16:54:20",
+  "hardware_ok": true,
+  "power_ok": true,
+  "communication_ok": true,
+  "imaging_issue": true,
+  "recommendations": [],
+  "working_baud_rates": [
+    57600
+  ],
+  "working_init_sequences": [
+    "Standard Handshake",
+    "Extended Handshake",
+    "Reset + Handshake",
+    "Alternative Address"
+  ],
+  "imaging_results": [
+    {
+      "test": "Standard GetImage",
+      "success": false
+    },
+    {
+      "test": "GetImage with timeout",
+      "success": false
+    },
+    {
+      "test": "Alternative imaging",
+      "success": false
+    }
+  ]
+}

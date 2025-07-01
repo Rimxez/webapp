@@ -1,0 +1,282 @@
+[
+    {
+        "timestamp": "2025-06-14 19:48:44",
+        "action": "camera",
+        "status": "off",
+        "user": "admin",
+        "details": ""
+    },
+    {
+        "timestamp": "2025-06-14 19:48:34",
+        "action": "camera",
+        "status": "on",
+        "user": "admin",
+        "details": ""
+    },
+    {
+        "timestamp": "2025-06-14 12:45:49",
+        "action": "fingerprint",
+        "status": "enrollment_failed",
+        "user": "admin",
+        "details": "Failed to enroll fingerprint for admin"
+    },
+    {
+        "timestamp": "2025-06-14 12:44:12",
+        "action": "login",
+        "status": "success",
+        "user": "admin",
+        "details": ""
+    },
+    {
+        "timestamp": "2025-06-14 12:44:12",
+        "action": "fingerprint",
+        "status": "failed",
+        "user": "unknown",
+        "details": "Fingerprint authentication failed"
+    },
+    {
+        "timestamp": "2025-06-14 12:43:30",
+        "action": "fingerprint",
+        "status": "enrollment_failed",
+        "user": "admin",
+        "details": "Failed to enroll fingerprint for admin"
+    },
+    {
+        "timestamp": "2025-06-14 12:31:31",
+        "action": "fingerprint",
+        "status": "enrollment_failed",
+        "user": "admin",
+        "details": "Failed to enroll fingerprint for test"
+    },
+    {
+        "timestamp": "2025-06-14 12:30:45",
+        "action": "fingerprint",
+        "status": "enrollment_failed",
+        "user": "admin",
+        "details": "Failed to enroll fingerprint for test"
+    },
+    {
+        "timestamp": "2025-06-14 12:16:27",
+        "action": "authentication",
+        "status": "failed",
+        "user": "unknown",
+        "details": "Fingerprint not recognized"
+    },
+    {
+        "timestamp": "2025-06-14 12:16:22",
+        "action": "authentication",
+        "status": "failed",
+        "user": "unknown",
+        "details": "Fingerprint not recognized"
+    },
+    {
+        "timestamp": "2025-06-14 12:16:14",
+        "action": "authentication",
+        "status": "failed",
+        "user": "unknown",
+        "details": "Fingerprint not recognized"
+    },
+    {
+        "timestamp": "2025-06-14 12:07:55",
+        "action": "login",
+        "status": "success",
+        "user": "admin",
+        "details": ""
+    },
+    {
+        "timestamp": "2025-06-14 12:07:49",
+        "action": "logout",
+        "status": "success",
+        "user": "test",
+        "details": ""
+    },
+    {
+        "timestamp": "2025-06-14 12:07:36",
+        "action": "login",
+        "status": "success",
+        "user": "test",
+        "details": ""
+    },
+    {
+        "timestamp": "2025-06-14 12:07:32",
+        "action": "fingerprint",
+        "status": "authenticated",
+        "user": "unknown",
+        "details": "Fingerprint authenticated"
+    },
+    {
+        "timestamp": "2025-06-14 12:07:22",
+        "action": "user",
+        "status": "approve",
+        "user": "admin",
+        "details": "Approved user admin"
+    },
+    {
+        "timestamp": "2025-06-14 12:07:19",
+        "action": "user",
+        "status": "edit",
+        "user": "admin",
+        "details": "Self-edited profile"
+    },
+    {
+        "timestamp": "2025-06-14 12:07:18",
+        "action": "fingerprint",
+        "status": "deleted",
+        "user": "admin",
+        "details": "Deleted fingerprint for admin from location 1"
+    },
+    {
+        "timestamp": "2025-06-14 12:07:06",
+        "action": "user",
+        "status": "approve",
+        "user": "admin",
+        "details": "Approved user admin"
+    },
+    {
+        "timestamp": "2025-06-14 12:07:02",
+        "action": "user",
+        "status": "edit",
+        "user": "admin",
+        "details": "Self-edited profile"
+    },
+    {
+        "timestamp": "2025-06-14 12:06:59",
+        "action": "fingerprint",
+        "status": "delete_failed",
+        "user": "admin",
+        "details": "Failed to delete fingerprint for admin"
+    },
+    {
+        "timestamp": "2025-06-14 12:06:36",
+        "action": "user",
+        "status": "approve",
+        "user": "admin",
+        "details": "Approved user test"
+    },
+    {
+        "timestamp": "2025-06-14 12:06:35",
+        "action": "user",
+        "status": "approve",
+        "user": "admin",
+        "details": "Approved user admin"
+    },
+    {
+        "timestamp": "2025-06-14 11:51:46",
+        "action": "user",
+        "status": "edit",
+        "user": "admin",
+        "details": "Self-edited profile"
+    },
+    {
+        "timestamp": "2025-06-14 11:51:35",
+        "action": "fingerprint",
+        "status": "enrolled",
+        "user": "admin",
+        "details": "Enrolled fingerprint for admin at location 1"
+    },
+    {
+        "timestamp": "2025-06-14 11:41:38",
+        "action": "user",
+        "status": "edit",
+        "user": "admin",
+        "details": "Edited user test"
+    },
+    {
+        "timestamp": "2025-06-14 11:41:28",
+        "action": "user",
+        "status": "approve",
+        "user": "admin",
+        "details": "Approved user test"
+    },
+    {
+        "timestamp": "2025-06-14 11:41:13",
+        "action": "login",
+        "status": "pending_approval",
+        "user": "test",
+        "details": ""
+    },
+    {
+        "timestamp": "2025-06-14 11:41:02",
+        "action": "user",
+        "status": "signup",
+        "user": "test",
+        "details": "New user registration"
+    },
+    {
+        "timestamp": "2025-06-14 11:40:19",
+        "action": "login",
+        "status": "failed",
+        "user": "test",
+        "details": ""
+    },
+    {
+        "timestamp": "2025-06-14 11:40:04",
+        "action": "login",
+        "status": "failed",
+        "user": "test",
+        "details": ""
+    },
+    {
+        "timestamp": "2025-06-14 11:38:22",
+        "action": "fingerprint",
+        "status": "deleted",
+        "user": "admin",
+        "details": "Deleted fingerprint for admin from location 1"
+    },
+    {
+        "timestamp": "2025-06-14 11:38:11",
+        "action": "fingerprint",
+        "status": "enrolled",
+        "user": "admin",
+        "details": "Enrolled fingerprint for admin at location 1"
+    },
+    {
+        "timestamp": "2025-06-14 10:05:29",
+        "action": "settings",
+        "status": "update",
+        "user": "admin",
+        "details": ""
+    },
+    {
+        "timestamp": "2025-06-14 10:04:58",
+        "action": "door",
+        "status": "auto_lock_scheduled",
+        "user": "admin",
+        "details": "Door will auto-lock after 5 seconds"
+    },
+    {
+        "timestamp": "2025-06-14 10:04:58",
+        "action": "door",
+        "status": "unlock",
+        "user": "admin",
+        "details": ""
+    },
+    {
+        "timestamp": "2025-06-14 10:04:57",
+        "action": "camera",
+        "status": "off",
+        "user": "admin",
+        "details": ""
+    },
+    {
+        "timestamp": "2025-06-14 10:04:49",
+        "action": "camera",
+        "status": "on",
+        "user": "admin",
+        "details": ""
+    },
+    {
+        "timestamp": "2025-06-14 10:04:39",
+        "action": "camera",
+        "status": "off",
+        "user": "admin",
+        "details": ""
+    },
+    {
+        "timestamp": "2025-06-14 10:04:31",
+        "action": "login",
+        "status": "success",
+        "user": "admin",
+        "details": ""
+    }
+]

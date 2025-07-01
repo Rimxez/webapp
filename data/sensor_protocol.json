@@ -1,0 +1,140 @@
+{
+  "sensor_info": {
+    "port": "/dev/ttyUSB0",
+    "baud": 57600,
+    "model": "Unknown",
+    "capabilities": [],
+    "handshake_response": "ef01ffffffff07000302000c",
+    "capture_modes": {
+      "standard_getimage": {
+        "supported": true,
+        "error_code": 3,
+        "response": "ef01ffffffff07000300000a"
+      },
+      "alt_getimage": {
+        "supported": true,
+        "error_code": 3,
+        "response": "ef01ffffffff07000300000a"
+      },
+      "continuous_capture": {
+        "supported": true,
+        "error_code": 3,
+        "response": "ef01ffffffff07000301000b"
+      }
+    },
+    "diagnosis": "IMAGING_FAIL_CONSISTENT",
+    "recommendations": [
+      "Check sensor surface for dirt/damage",
+      "Verify power supply (3.3V or 5V)",
+      "Try different finger placement",
+      "Check wiring connections",
+      "Sensor may need initialization sequence"
+    ]
+  },
+  "protocol": {
+    "model": "Unknown",
+    "baud_rate": 57600,
+    "commands": {
+      "handshake": [
+        239,
+        1,
+        255,
+        255,
+        255,
+        255,
+        1,
+        0,
+        3,
+        1,
+        0,
+        5
+      ],
+      "get_image": [
+        239,
+        1,
+        255,
+        255,
+        255,
+        255,
+        1,
+        0,
+        3,
+        1,
+        0,
+        5
+      ],
+      "img2tz_1": [
+        239,
+        1,
+        255,
+        255,
+        255,
+        255,
+        1,
+        0,
+        4,
+        2,
+        1,
+        0,
+        8
+      ],
+      "img2tz_2": [
+        239,
+        1,
+        255,
+        255,
+        255,
+        255,
+        1,
+        0,
+        4,
+        2,
+        2,
+        0,
+        9
+      ],
+      "create_model": [
+        239,
+        1,
+        255,
+        255,
+        255,
+        255,
+        1,
+        0,
+        3,
+        5,
+        0,
+        9
+      ],
+      "search": [
+        239,
+        1,
+        255,
+        255,
+        255,
+        255,
+        1,
+        0,
+        8,
+        4,
+        1,
+        0,
+        0,
+        0,
+        127
+      ]
+    },
+    "timing": {
+      "pre_command_delay": 0.5,
+      "post_command_delay": 1.0,
+      "image_capture_timeout": 10,
+      "retry_delay": 1.0
+    },
+    "special_handling": [
+      "EXTENDED_TIMEOUTS",
+      "MULTIPLE_RETRIES",
+      "BUFFER_CLEARING"
+    ]
+  }
+}

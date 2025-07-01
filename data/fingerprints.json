@@ -1,0 +1,10 @@
+{
+  "1": {
+    "username": "1",
+    "slot_id": 1,
+    "enrolled_date": "2025-06-15T16:24:55.072777",
+    "sensor_type": "GENERIC_CP210X",
+    "uart_port": "/dev/ttyUSB0",
+    "baud_rate": 57600
+  }
+}

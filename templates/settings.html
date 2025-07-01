@@ -1,0 +1,128 @@
+{% extends "layout.html" %}
+
+{% block title %}Settings{% endblock %}
+
+{% block content %}
+<div class="section active">
+    <div class="section-header">
+        <h2><i class="fas fa-cog"></i> Settings</h2>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <h3><i class="fas fa-sliders-h"></i> System Configuration</h3>
+        </div>
+        <div class="card-body">
+            <form id="settingsForm">
+                <div class="form-group">
+                    <label for="system_passcode">System Passcode</label>
+                    <div class="password-input-group">
+                        <input type="password" id="system_passcode" name="system_passcode" placeholder="Enter system passcode">
+                        <button type="button" class="password-toggle" data-target="system_passcode">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                    </div>
+                    <div class="help-text">Main passcode for door access</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="lockout_passcode">Lockout Override Passcode</label>
+                    <div class="password-input-group">
+                        <input type="password" id="lockout_passcode" name="lockout_passcode" placeholder="Enter lockout override passcode">
+                        <button type="button" class="password-toggle" data-target="lockout_passcode">
+                            <i class="fas fa-eye"></i>
+                        </button>
+                    </div>
+                    <div class="help-text">Emergency passcode to unlock after too many failed attempts</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="max_trials">Maximum Failed Attempts</label>
+                    <input type="number" id="max_trials" name="max_trials" min="1" max="10" value="3">
+                    <div class="help-text">Number of failed attempts before system lockout</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="auto_lock_delay">Auto-Lock Delay (seconds)</label>
+                    <input type="number" id="auto_lock_delay" name="auto_lock_delay" min="1" max="60" value="5">
+                    <div class="help-text">Time before door automatically locks after being unlocked</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="keypad_enabled">
+                        <input type="checkbox" id="keypad_enabled" name="keypad_enabled" checked>
+                        Enable Physical Keypad
+                    </label>
+                    <div class="help-text">Enable or disable the physical 4x4 keypad for door access</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="keypad_timeout">Keypad Input Timeout (seconds)</label>
+                    <input type="number" id="keypad_timeout" name="keypad_timeout" min="5" max="60" value="30">
+                    <div class="help-text">Time before keypad input is automatically cleared</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="camera_enabled">
+                        <input type="checkbox" id="camera_enabled" name="camera_enabled" checked>
+                        Enable Camera
+                    </label>
+                    <div class="help-text">Enable or disable camera functionality</div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-save"></i> Save Settings
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <h3><i class="fas fa-microchip"></i> Hardware Configuration</h3>
+        </div>
+        <div class="card-body">
+            <div class="info-item">
+                <span>Keypad GPIO Rows:</span>
+                <span>18, 23, 24, 25</span>
+            </div>
+            <div class="info-item">
+                <span>Keypad GPIO Columns:</span>
+                <span>4, 17, 27, 22</span>
+            </div>
+            <div class="info-item">
+                <span>Door Relay Pin:</span>
+                <span>21</span>
+            </div>
+            <div class="help-text">
+                <strong>Note:</strong> Hardware configuration changes require system restart to take effect.
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card-header">
+            <h3><i class="fas fa-shield-alt"></i> Security Information</h3>
+        </div>
+        <div class="card-body">
+            <div class="info-item">
+                <span>Password Encryption:</span>
+                <span>SHA-256</span>
+            </div>
+            <div class="info-item">
+                <span>Session Timeout:</span>
+                <span>24 hours</span>
+            </div>
+            <div class="info-item">
+                <span>Log Retention:</span>
+                <span>1000 entries</span>
+            </div>
+            <div class="help-text">
+                All passwords are encrypted and stored securely. System logs are automatically rotated.
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="{{ url_for('static', filename='js/settings.js') }}"></script>
+{% endblock %}

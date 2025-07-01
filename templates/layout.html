@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Smart Door Lock System{% endblock %}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    {% block styles %}{% endblock %}
+</head>
+<body>
+    <div class="app-container">
+        <header class="header">
+            <div class="logo">
+                <i class="fas fa-lock"></i> Smart Door Lock
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="{{ url_for('dashboard') }}" class="{% if active_page == 'dashboard' %}active{% endif %}"><i class="fas fa-home"></i> Dashboard</a></li>
+                    <li><a href="{{ url_for('people') }}" class="{% if active_page == 'people' %}active{% endif %}"><i class="fas fa-users"></i> People</a></li>
+                    <li><a href="{{ url_for('logs') }}" class="{% if active_page == 'logs' %}active{% endif %}"><i class="fas fa-clipboard-list"></i> Logs</a></li>
+                    <li><a href="{{ url_for('metrics') }}" class="{% if active_page == 'metrics' %}active{% endif %}"><i class="fas fa-chart-bar"></i> Metrics</a></li>
+                    <li><a href="{{ url_for('settings') }}" class="{% if active_page == 'settings' %}active{% endif %}"><i class="fas fa-cog"></i> Settings</a></li>
+                    <li><a href="{{ url_for('guide') }}" class="{% if active_page == 'guide' %}active{% endif %}"><i class="fas fa-book"></i> Guide</a></li>
+                </ul>
+            </nav>
+            <div class="user-menu">
+                <div class="notifications" id="notifications-toggle">
+                    <i class="fas fa-bell"></i>
+                    <span class="badge" id="notifications-badge">3</span>
+                    <div class="notifications-panel" id="notifications-panel">
+                        <div class="panel-header">
+                            <h3>Notifications</h3>
+                            <button class="btn-clear" id="clear-notifications">Clear All</button>
+                        </div>
+                        <div class="notifications-list" id="notifications-list">
+                            <!-- Notifications will be loaded here -->
+                        </div>
+                    </div>
+                </div>
+                <div class="user-info">
+                    <span>Welcome, <a href="{{ url_for('profile') }}" class="username-link"><strong>{{ session.get('username', 'Guest') }}</strong></a></span>
+                    <a href="{{ url_for('logout') }}" class="logout-btn"><i class="fas fa-sign-out-alt"></i></a>
+                </div>
+            </div>
+        </header>
+        <main class="main-content">
+            {% block content %}{% endblock %}
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/notifications.js') }}"></script>
+    {% block scripts %}{% endblock %}
+</body>
+</html>

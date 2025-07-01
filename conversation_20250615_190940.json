@@ -1,0 +1,52 @@
+[
+  {
+    "timestamp": "19:08:29",
+    "speaker": "AI",
+    "text": "This is a speaker test. Can you hear me clearly?"
+  },
+  {
+    "timestamp": "19:08:39",
+    "speaker": "USER",
+    "text": "yes i can hear you know"
+  },
+  {
+    "timestamp": "19:08:39",
+    "speaker": "AI",
+    "text": "Perfect! I heard: yes i can hear you know"
+  },
+  {
+    "timestamp": "19:08:55",
+    "speaker": "AI",
+    "text": "Hello! Welcome to the smart door system."
+  },
+  {
+    "timestamp": "19:09:02",
+    "speaker": "AI",
+    "text": "What is your name?"
+  },
+  {
+    "timestamp": "19:09:12",
+    "speaker": "USER",
+    "text": "my name is ellen"
+  },
+  {
+    "timestamp": "19:09:12",
+    "speaker": "AI",
+    "text": "Nice to meet you, my name is ellen!"
+  },
+  {
+    "timestamp": "19:09:19",
+    "speaker": "AI",
+    "text": "What is the purpose of your visit today?"
+  },
+  {
+    "timestamp": "19:09:33",
+    "speaker": "USER",
+    "text": "i'm here for shopping even"
+  },
+  {
+    "timestamp": "19:09:33",
+    "speaker": "AI",
+    "text": "I understand. You're here because: i'm here for shopping even. Thank you!"
+  }
+]

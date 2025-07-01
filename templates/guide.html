@@ -1,0 +1,97 @@
+{% extends "layout.html" %}
+
+{% block title %}User Guide - Welcome to Lockey{% endblock %}
+
+{% block content %}
+<section class="section">
+    <div class="section-header">
+        <h2><i class="fas fa-book"></i> User Guide</h2>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <div class="guide-content">
+                <h3>Smart Door Lock System User Guide</h3>
+                <div class="guide-section">
+                    <h4>1. Dashboard</h4>
+                    <p>The dashboard provides quick access to the main functions of the system:</p>
+                    <ul>
+                        <li><strong>Door Control:</strong> Lock or unlock the door remotely.</li>
+                        <li><strong>Camera Control:</strong> Turn the livestream on/off, capture images, and view recent captures.</li>
+                        <li><strong>Recent Activity:</strong> View the most recent door activities and user logins.</li>
+                    </ul>
+                </div>
+                <div class="guide-section">
+                    <h4>2. Settings</h4>
+                    <p>Configure system settings:</p>
+                    <ul>
+                        <li><strong>System Passcode:</strong> The main passcode used to unlock the door.</li>
+                        <li><strong>Max Trials:</strong> Maximum number of failed attempts before lockout.</li>
+                        <li><strong>Lockout Passcode:</strong> Special passcode to override lockout.</li>
+                    </ul>
+                </div>
+                <div class="guide-section">
+                    <h4>3. People Management</h4>
+                    <p>Manage users of the system (Admin only):</p>
+                    <ul>
+                        <li><strong>Add Users:</strong> Create new user accounts.</li>
+                        <li><strong>Edit Users:</strong> Modify existing user information and permissions.</li>
+                        <li><strong>Delete Users:</strong> Remove users from the system.</li>
+                    </ul>
+                </div>
+                <div class="guide-section">
+                    <h4>4. My Profile</h4>
+                    <p>View and edit your own profile information:</p>
+                    <ul>
+                        <li><strong>Update Information:</strong> Change your name, email, and password.</li>
+                        <li><strong>View Permissions:</strong> See what actions you are authorized to perform.</li>
+                    </ul>
+                </div>
+                <div class="guide-section">
+                    <h4>5. Metrics</h4>
+                    <p>View system statistics and performance metrics:</p>
+                    <ul>
+                        <li><strong>Authentication Stats:</strong> Successful and failed login attempts.</li>
+                        <li><strong>Door Access Stats:</strong> Successful and failed door unlock attempts.</li>
+                        <li><strong>System Performance:</strong> CPU, RAM, temperature, and uptime.</li>
+                        <li><strong>Camera Performance:</strong> Camera latency and other metrics.</li>
+                    </ul>
+                </div>
+                <div class="guide-section">
+                    <h4>6. Activity Logs</h4>
+                    <p>Detailed logs of all system activities:</p>
+                    <ul>
+                        <li><strong>Filter Logs:</strong> View specific types of activities.</li>
+                        <li><strong>Download Logs:</strong> Export logs to CSV for analysis.</li>
+                    </ul>
+                </div>
+                <div class="guide-section">
+                    <h4>7. Notifications</h4>
+                    <p>Stay informed about important system events:</p>
+                    <ul>
+                        <li><strong>Real-time Alerts:</strong> Receive notifications about system events.</li>
+                        <li><strong>Notification Panel:</strong> Access all notifications from the bell icon in the header.</li>
+                    </ul>
+                </div>
+                <div class="guide-section">
+                    <h4>8. User Roles</h4>
+                    <p>The system has different user roles with varying permissions:</p>
+                    <ul>
+                        <li><strong>Admin:</strong> Full access to all system features.</li>
+                        <li><strong>Administrator:</strong> Similar to admin but cannot delete admin accounts.</li>
+                        <li><strong>Family Member:</strong> Can unlock doors and view logs.</li>
+                        <li><strong>Guest:</strong> Limited access, typically only door unlock.</li>
+                    </ul>
+                </div>
+                <div class="guide-section">
+                    <h4>9. Access Types</h4>
+                    <p>Users can have different types of access:</p>
+                    <ul>
+                        <li><strong>Full Access:</strong> No time restrictions.</li>
+                        <li><strong>Limited Access:</strong> Access expires after a specific date.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

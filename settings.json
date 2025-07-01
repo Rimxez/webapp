@@ -1,0 +1,22 @@
+{
+    "system_passcode": "1234",
+    "max_trials": 3,
+    "lockout_passcode": "9999",
+    "camera_enabled": false,
+    "auto_lock_delay": 5,
+    "keypad_enabled": true,
+    "keypad_pins": {
+        "rows": [
+            5,
+            6,
+            13,
+            19
+        ],
+        "cols": [
+            12,
+            16,
+            20,
+            21
+        ]
+    }
+}

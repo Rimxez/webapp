@@ -1,0 +1,112 @@
+{% extends "layout.html" %}
+
+{% block title %}Metrics - Smart Door Lock System{% endblock %}
+
+{% block content %}
+<section class="section">
+    <div class="section-header">
+        <h2><i class="fas fa-chart-bar"></i> Metrics</h2>
+    </div>
+    <div class="metrics-grid">
+        <!-- Authentication Metrics -->
+        <div class="card">
+            <div class="card-header">
+                <h3>Authentication Metrics</h3>
+            </div>
+            <div class="card-body">
+                <div class="metrics-chart">
+                    <div class="chart-container">
+                        <canvas id="auth-chart"></canvas>
+                    </div>
+                    <div class="metrics-summary">
+                        <div class="metric-item">
+                            <span class="metric-label">Successful Logins</span>
+                            <span class="metric-value" id="auth-success">0</span>
+                        </div>
+                        <div class="metric-item">
+                            <span class="metric-label">Failed Logins</span>
+                            <span class="metric-value" id="auth-failed">0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Door Access Metrics -->
+        <div class="card">
+            <div class="card-header">
+                <h3>Door Access Metrics</h3>
+            </div>
+            <div class="card-body">
+                <div class="metrics-chart">
+                    <div class="chart-container">
+                        <canvas id="door-chart"></canvas>
+                    </div>
+                    <div class="metrics-summary">
+                        <div class="metric-item">
+                            <span class="metric-label">Successful Unlocks</span>
+                            <span class="metric-value" id="door-success">0</span>
+                        </div>
+                        <div class="metric-item">
+                            <span class="metric-label">Failed Unlocks</span>
+                            <span class="metric-value" id="door-failed">0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- System Performance -->
+        <div class="card">
+            <div class="card-header">
+                <h3>System Performance</h3>
+            </div>
+            <div class="card-body">
+                <div class="metrics-summary">
+                    <div class="metric-item">
+                        <span class="metric-label">CPU Usage</span>
+                        <div class="progress-bar">
+                            <div class="progress" id="cpu-progress" style="width: 0%"></div>
+                        </div>
+                        <span class="metric-value" id="cpu-usage">0%</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-label">RAM Usage</span>
+                        <div class="progress-bar">
+                            <div class="progress" id="ram-progress" style="width: 0%"></div>
+                        </div>
+                        <span class="metric-value" id="ram-usage">0%</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-label">Temperature</span>
+                        <span class="metric-value" id="temperature">0°C</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-label">Uptime</span>
+                        <span class="metric-value" id="uptime">0d 0h 0m</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Camera Performance -->
+        <div class="card">
+            <div class="card-header">
+                <h3>Camera Performance</h3>
+            </div>
+            <div class="card-body">
+                <div class="metrics-summary">
+                    <div class="metric-item">
+                        <span class="metric-label">Camera Latency</span>
+                        <span class="metric-value" id="camera-latency">0ms</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/metrics.js') }}"></script>
+{% endblock %}

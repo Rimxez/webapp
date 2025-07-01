@@ -1,0 +1,9 @@
+{
+  "system_passcode": "1234",
+  "max_trials": 3,
+  "lockout_passcode": "9999",
+  "auto_lock_delay": 7,
+  "camera_enabled": true,
+  "keypad_enabled": true,
+  "keypad_timeout": 30
+}

@@ -1,0 +1,140 @@
+{% extends "layout.html" %}
+
+{% block title %}Profile - Smart Door Lock System{% endblock %}
+
+{% block content %}
+<div class="section active" id="profile">
+    <div class="section-header">
+        <h2><i class="fas fa-user"></i> My Profile</h2>
+    </div>
+
+    <!-- Current User Display -->
+    <div class="card">
+        <div class="card-header">
+            <h3><i class="fas fa-id-card"></i> Current User</h3>
+        </div>
+        <div class="card-body">
+            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                <div style="width: 60px; height: 60px; background-color: #3498db; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.5rem; font-weight: bold;">
+                    <span id="user-avatar"></span>
+                </div>
+                <div>
+                    <h3 style="margin: 0; color: #2c3e50;" id="current-username-display">Loading...</h3>
+                    <p style="margin: 0; color: #777;" id="current-user-role">Loading...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Profile Form -->
+    <div class="card">
+        <div class="card-header">
+            <h3><i class="fas fa-edit"></i> Edit Profile</h3>
+        </div>
+        <div class="card-body">
+            <form id="profile-form">
+                <div class="form-group">
+                    <label for="profile-username">Username</label>
+                    <input type="text" id="profile-username" name="username" required>
+                    <div class="help-text">Your username for login and system identification.</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="profile-email">Email</label>
+                    <input type="email" id="profile-email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="profile-role">Role</label>
+                    <input type="text" id="profile-role" name="role" readonly style="background-color: #f8f9fa;">
+                    <div class="help-text">Your role is assigned by administrators and cannot be changed.</div>
+                </div>
+
+                <div class="form-group">
+                    <label for="profile-access-type">Access Type</label>
+                    <input type="text" id="profile-access-type" name="access_type" readonly style="background-color: #f8f9fa;">
+                    <div class="help-text">Your access type is managed by administrators.</div>
+                </div>
+
+                <div class="form-group" id="profile-access-until-group" style="display: none;">
+                    <label for="profile-access-until">Access Until</label>
+                    <input type="date" id="profile-access-until" name="access_until" readonly style="background-color: #f8f9fa;">
+                </div>
+
+                <div class="form-group">
+                    <label for="profile-password">New Password (leave blank to keep current)</label>
+                    <input type="password" id="profile-password" name="password" placeholder="Enter new password">
+                </div>
+
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-save"></i> Save Changes
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- User Permissions -->
+    <div class="card">
+        <div class="card-header">
+            <h3><i class="fas fa-key"></i> Your Permissions</h3>
+        </div>
+        <div class="card-body">
+            <div id="user-permissions" class="permissions-list">
+                <!-- Permissions will be loaded here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Fingerprint Management Section -->
+    <div class="card">
+        <div class="card-header">
+            <h3><i class="fas fa-fingerprint"></i> Fingerprint Authentication</h3>
+        </div>
+        <div class="card-body">
+            <div class="fingerprint-profile-section">
+                <div class="fingerprint-status-display">
+                    <div class="status-item">
+                        <label>Status:</label>
+                        <span id="profile-fingerprint-status" class="status-badge">Loading...</span>
+                    </div>
+                    <div class="status-item" id="enrollment-details" style="display: none;">
+                        <label>Enrolled:</label>
+                        <span id="enrollment-date"></span>
+                    </div>
+                </div>
+                
+                <div class="fingerprint-actions">
+                    <button type="button" class="btn btn-primary" id="profile-enroll-fingerprint-btn" style="display: none;">
+                        <i class="fas fa-fingerprint"></i> Enroll Fingerprint
+                    </button>
+                    <button type="button" class="btn btn-danger" id="profile-delete-fingerprint-btn" style="display: none;">
+                        <i class="fas fa-trash"></i> Remove Fingerprint
+                    </button>
+                </div>
+                
+                <div class="fingerprint-info">
+                    <p><i class="fas fa-info-circle"></i> Fingerprint authentication allows you to log in quickly and securely without entering your password.</p>
+                    <p><strong>Note:</strong> You can use fingerprint authentication on the login page or physical keypad (if available).</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Recent Activity -->
+    <div class="card">
+        <div class="card-header">
+            <h3><i class="fas fa-history"></i> My Recent Activity</h3>
+        </div>
+        <div class="card-body">
+            <div id="profile-activity" class="activity-list">
+                <p class="text-muted">Loading activity...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notification -->
+    <div id="notification" class="notification" style="display: none;"></div>
+</div>
+
+<script src="{{ url_for('static', filename='js/profile.js') }}"></script>
+{% endblock %}

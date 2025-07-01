@@ -1,0 +1,234 @@
+{% extends "layout.html" %}
+
+{% block title %}Camera Test - Smart Door Lock System{% endblock %}
+
+{% block content %}
+<section class="section">
+    <div class="section-header">
+        <h2><i class="fas fa-camera"></i> Camera Test</h2>
+    </div>
+    
+    <div class="card">
+        <div class="card-header">
+            <h3>Camera Diagnostics</h3>
+        </div>
+        <div class="card-body">
+            <div class="camera-test-controls">
+                <button class="btn" id="test-direct-stream">
+                    <i class="fas fa-video"></i> Test Direct Stream
+                </button>
+                <button class="btn" id="test-libcamera">
+                    <i class="fas fa-camera"></i> Test libcamera
+                </button>
+                <button class="btn" id="test-picamera">
+                    <i class="fas fa-camera-retro"></i> Test PiCamera2
+                </button>
+                <button class="btn" id="run-diagnostics">
+                    <i class="fas fa-stethoscope"></i> Run Full Diagnostics
+                </button>
+            </div>
+            
+            <div class="camera-test-results">
+                <h4>Camera Information</h4>
+                <div id="camera-info" class="info-panel">
+                    <p>Click a test button to get camera information</p>
+                </div>
+                
+                <h4>Test Stream</h4>
+                <div class="camera-test-stream">
+                    <img id="test-stream" class="camera-feed" src="/placeholder.svg" alt="Camera Test Stream">
+                </div>
+                
+                <h4>Diagnostic Output</h4>
+                <div id="diagnostic-output" class="diagnostic-panel">
+                    <pre>No diagnostic data available yet.</pre>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    // Get elements
+    const testDirectStreamBtn = document.getElementById("test-direct-stream");
+    const testLibcameraBtn = document.getElementById("test-libcamera");
+    const testPicameraBtn = document.getElementById("test-picamera");
+    const runDiagnosticsBtn = document.getElementById("run-diagnostics");
+    const cameraInfo = document.getElementById("camera-info");
+    const testStream = document.getElementById("test-stream");
+    const diagnosticOutput = document.getElementById("diagnostic-output");
+    
+    // Test direct stream
+    testDirectStreamBtn.addEventListener("click", () => {
+        showLoading(cameraInfo);
+        
+        // Get camera info
+        fetch("/api/camera/status")
+            .then(response => response.json())
+            .then(data => {
+                let infoHtml = `
+                    <p><strong>Camera Type:</strong> ${data.type || "Unknown"}</p>
+                    <p><strong>Status:</strong> ${data.status || "Unknown"}</p>
+                    <p><strong>Resolution:</strong> ${data.resolution || "Unknown"}</p>
+                    <p><strong>Enabled:</strong> ${data.enabled ? "Yes" : "No"}</p>
+                `;
+                cameraInfo.innerHTML = infoHtml;
+            })
+            .catch(error => {
+                cameraInfo.innerHTML = `<p class="error">Error getting camera info: ${error}</p>`;
+            });
+        
+        // Test stream
+        const timestamp = new Date().getTime();
+        testStream.src = `/api/camera/stream?t=${timestamp}`;
+        testStream.onerror = () => {
+            diagnosticOutput.querySelector("pre").textContent = "Error loading camera stream. Check server logs for details.";
+        };
+    });
+    
+    // Test libcamera
+    testLibcameraBtn.addEventListener("click", () => {
+        showLoading(cameraInfo);
+        showLoading(diagnosticOutput);
+        
+        fetch("/api/camera/test/libcamera")
+            .then(response => response.json())
+            .then(data => {
+                cameraInfo.innerHTML = `
+                    <p><strong>Available:</strong> ${data.available ? "Yes" : "No"}</p>
+                    <p><strong>Version:</strong> ${data.version || "Unknown"}</p>
+                    <p><strong>Cameras:</strong> ${data.cameras || "None detected"}</p>
+                `;
+                
+                diagnosticOutput.querySelector("pre").textContent = data.output || "No output available";
+                
+                if (data.image) {
+                    testStream.src = `/static/test/${data.image}`;
+                }
+            })
+            .catch(error => {
+                cameraInfo.innerHTML = `<p class="error">Error testing libcamera: ${error}</p>`;
+                diagnosticOutput.querySelector("pre").textContent = `Error: ${error}`;
+            });
+    });
+    
+    // Test PiCamera2
+    testPicameraBtn.addEventListener("click", () => {
+        showLoading(cameraInfo);
+        showLoading(diagnosticOutput);
+        
+        fetch("/api/camera/test/picamera")
+            .then(response => response.json())
+            .then(data => {
+                cameraInfo.innerHTML = `
+                    <p><strong>Available:</strong> ${data.available ? "Yes" : "No"}</p>
+                    <p><strong>Version:</strong> ${data.version || "Unknown"}</p>
+                    <p><strong>Camera Model:</strong> ${data.model || "Unknown"}</p>
+                `;
+                
+                diagnosticOutput.querySelector("pre").textContent = data.output || "No output available";
+                
+                if (data.image) {
+                    testStream.src = `/static/test/${data.image}`;
+                }
+            })
+            .catch(error => {
+                cameraInfo.innerHTML = `<p class="error">Error testing PiCamera2: ${error}</p>`;
+                diagnosticOutput.querySelector("pre").textContent = `Error: ${error}`;
+            });
+    });
+    
+    // Run full diagnostics
+    runDiagnosticsBtn.addEventListener("click", () => {
+        showLoading(diagnosticOutput);
+        
+        fetch("/api/camera/test/diagnostics")
+            .then(response => response.json())
+            .then(data => {
+                diagnosticOutput.querySelector("pre").textContent = data.output || "No diagnostic output available";
+                
+                if (data.summary) {
+                    cameraInfo.innerHTML = `
+                        <p><strong>Camera Detected:</strong> ${data.summary.detected ? "Yes" : "No"}</p>
+                        <p><strong>Camera Enabled:</strong> ${data.summary.enabled ? "Yes" : "No"}</p>
+                        <p><strong>Video Device:</strong> ${data.summary.video_device || "Not found"}</p>
+                        <p><strong>Permission Issues:</strong> ${data.summary.permission_issues ? "Yes" : "No"}</p>
+                    `;
+                }
+            })
+            .catch(error => {
+                diagnosticOutput.querySelector("pre").textContent = `Error running diagnostics: ${error}`;
+            });
+    });
+    
+    // Helper function to show loading state
+    function showLoading(element) {
+        if (element.tagName === "DIV") {
+            element.innerHTML = "<p>Loading...</p>";
+        } else if (element.tagName === "IMG") {
+            element.src = "/placeholder.svg";
+        }
+    }
+});
+</script>
+
+<style>
+.camera-test-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.camera-test-results {
+    margin-top: 20px;
+}
+
+.info-panel {
+    background-color: #f8f9fa;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.camera-test-stream {
+    width: 100%;
+    height: 300px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.camera-feed {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.diagnostic-panel {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 20px;
+    overflow: auto;
+    max-height: 300px;
+}
+
+.diagnostic-panel pre {
+    margin: 0;
+    white-space: pre-wrap;
+    font-family: monospace;
+}
+
+.error {
+    color: #e74c3c;
+    font-weight: bold;
+}
+</style>
+{% endblock %}
