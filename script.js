@@ -1,0 +1,1 @@
+const BACKEND_URL = "http://<pi_local_ip>:5000"; 

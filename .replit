@@ -1,0 +1,16 @@
+modules = ["python-3.12", "nodejs-20", "web"]
+run = "python3 app.py"
+
+[nix]
+channel = "stable-24_05"
+packages = ["SDL2", "SDL2_image", "SDL2_mixer", "SDL2_ttf", "cacert", "cairo", "cargo", "cups", "espeak-ng", "ffmpeg-full", "fontconfig", "freetype", "gdb", "glibcLocales", "libarchive", "libcap", "libffi", "libiconv", "libjpeg", "libpng", "libxcrypt", "ncurses", "openssl", "pkg-config", "portaudio", "portmidi", "rustc", "samba", "udev", "xcodebuild", "xsimd", "zlib"]
+
+[deployment]
+run = ["sh", "-c", "npm run dev"]
+
+[[ports]]
+localPort = 5000
+externalPort = 80
+
+[agent]
+expertMode = true

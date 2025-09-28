@@ -260,3 +260,6 @@ Werkzeug==2.2.2
 wrapt==1.14.1
 yt-dlp==2023.3.4
 zipp==1.0.0
+pyttsx3
+serial
+speechrecognition
