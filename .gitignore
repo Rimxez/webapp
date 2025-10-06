@@ -6,6 +6,11 @@
 # next.js
 /.next/
 /out/
+.env
+.local/
+.local/*
+.local/share/
+*.log
 
 # production
 /build
@@ -25,3 +30,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# user/system files
+.DS_Store
+Thumbs.db
